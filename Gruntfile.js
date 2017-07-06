@@ -69,12 +69,14 @@ module.exports = function(grunt) {
       }
     },
     watch: {
-      js: {
+      scripts: {
         files: [
-          '<%= jshint.all %>'
+          '<%= jshint.all %>',
+          'assets/css/vendor/*.css'
         ],
-        tasks: ['uglify']
-      }
+        tasks: ['uglify', 'cssmin']
+      },
+      
     },
     clean: {
       dist: [
