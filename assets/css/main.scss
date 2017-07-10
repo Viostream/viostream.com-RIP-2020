@@ -1,8 +1,10 @@
 ---
 ---
-/*
-   Vendor
-   ========================================================================== */
-
+/*	VENDOR  ========================================================================== */
+   
+@import "vendor/font-awesome/font-awesome"; /* Font Awesome icons */
 @import "vendor/magnific-popup/magnific-popup"; /* Magnific Popup lightbox */
+@import "fontface"; /* Theme Fontface */
+@import "variables"; /* Theme Variables */
 @import "style"; /* Theme Style */
+

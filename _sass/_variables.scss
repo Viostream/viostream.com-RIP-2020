@@ -1,0 +1,109 @@
+// TYPOGRAPHY ================================================
+$base-font                : 'source-sans-pro', sans-serif;
+$heading-font             : $base-font;
+
+$doc-font-size            : 16;
+$doc-line-height          : 24;
+
+
+// COLORS =====================================================
+
+$body-text-color          : #7E8890;
+$base-color               : #343434;
+$comp-color               : adjust-hue($base-color, 180);
+$border-color             : #ddd;
+$white                    : #fff;
+$black                    : #000;
+$primary-color			  : #2492FF;
+$secondary-color			  : #007FDD;
+$dark-text-color		  	  : #27282B; 
+$medium-dark-text-color	  : #4A4C4F;
+$grey-color				  : #b2b2b2;
+$light-grey				  : #D8D8D8;	
+$accent-color             : $black;
+$link-color               : $primary-color;
+
+@include fontFace('MuseoSans100','../fonts/MuseoSans_100Web');
+@include fontFace('MuseoSans300','../fonts/MuseoSans_300Web');
+@include fontFace('MuseoSans500','../fonts/MuseoSans_500Web');
+@include fontFace('MuseoSans700','../fonts/MuseoSans_700Web');
+@include fontFace('MuseoSans900','../fonts/MuseoSans_900Web');
+@include fontFace('MuseoSlab100','../fonts/Museo_Slab_100Web');
+@include fontFace('MuseoSlab300','../fonts/Museo_Slab_300Web');
+@include fontFace('MuseoSlab500','../fonts/Museo_Slab_500Web');
+
+
+@mixin border-radius($radius) {
+  -moz-border-radius: $radius;
+  -webkit-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+
+@mixin opacity($opacity) {
+  opacity: $opacity;
+  $opacity-ie: $opacity * 100;
+  filter: alpha(opacity=$opacity-ie); //IE8
+}
+
+// 	BROWSER PREFIXES ================================================
+@mixin transform($transforms) {
+	-webkit-transform: $transforms;
+	-moz-transform: $transforms;
+	-ms-transform: $transforms;
+	-o-transform: $transforms;
+	transform: $transforms;
+}
+
+// ROTATE ================================================
+@mixin rotate ($deg) { 
+	@include transform(rotate(#{$deg}deg));
+}
+
+// SCALE ================================================
+@mixin scale($scale) {
+	@include transform(scale($scale));
+}
+
+// TRANSLATE ================================================
+@mixin translate ($x, $y) {
+	@include transform(translate($x, $y));
+}
+
+// SKEW ================================================
+@mixin skew ($x, $y) {
+	@include transform(skew(#{$x}deg, #{$y}deg));
+}
+
+// TRANSFORM ORIGIN ================================================
+@mixin transform-origin ($origin) {
+    	-webkit-transform-origin: $origin;
+    	-moz-transform-origin: $origin;
+	-ms-transform-origin: $origin;
+	transform-origin: $origin;
+}
+// BACKFACE VISIBILITY ================================================
+@mixin backface-visibility ($visibility){
+	-webkit-backface-visibility: $visibility;
+	backface-visibility: $visibility;
+}
+
+// TRANSITION ================================================
+@mixin transition-with-opacity($opacitytime, $transformtime){
+transition: opacity $opacitytime, transform $transformtime;
+-webkit-transition: opacity $opacitytime, -webkit-transform $transformtime;;
+-moz-transition: opacity $opacitytime, -moz-transform $transformtime;;
+-o-transition: opacity $opacitytime, -o-transform $transformtime;;
+}
+@mixin transition($time){
+transition: $time;
+-webkit-transition: $time;
+-moz-transition: $time;
+-o-transition: $time;
+}
+@mixin opacity-transition($time){
+transition: $time;
+-webkit-transition: $time;
+-moz-transition: $time;
+-o-transition: $time;
+}
