@@ -1,4 +1,9 @@
 jQuery(document).ready(function($){
+	
+	$('.carousel').carousel({
+	    interval: false //changes the speed
+	})
+	
 	$('.iframe-video').each(function() {
 		$(this).magnificPopup({type:'iframe'});
 	});
