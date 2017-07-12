@@ -101,7 +101,7 @@ input {
 
 h1{
 	font-family: MuseoSlab100, Arial, Helvetica, Geneva, sans-serif;
-	font-size: 60px;
+	font-size: 50px;
 }
 
 h2{
@@ -144,7 +144,7 @@ h3{
 }
 
 .section-p{
-	padding: 80px 0;
+	padding: 60px 0;
 }
 
 .main-title{
@@ -162,8 +162,8 @@ h3{
 
 .btn-primary{
 	@include border-radius(100px);
-	padding: 15px 25px;
-	min-width: 250px;
+	padding: 10px 20px;
+	min-width: 220px;
 	font-size: 16px;
 	font-family: MuseoSans500, Helvetica, sans-serif;
 }
@@ -185,7 +185,7 @@ h3{
 		background: transparent url('../img/home-banner-bg.jpg') no-repeat center center;
 		background-size: cover;
 		min-height: 377px;
-		padding: 170px 0 ;
+		padding: 140px 0 80px 0;
 	}
 
 /* @end */
@@ -197,7 +197,7 @@ h3{
 }
 
 .client-logos img{
-	padding: 30px 0;
+	padding: 25px 0;
 }
 
 
@@ -675,6 +675,7 @@ Main components
 
 .cd-primary-nav, .cd-primary-nav ul {
   position: fixed;
+  text-transform: uppercase !important;
   top: 0;
   right: 0;
   height: 100%;
@@ -700,10 +701,11 @@ Main components
 }
 .cd-primary-nav a, .cd-primary-nav ul a {
   display: block;
-  font-family: 'MuseoSans700', Helvetica, sans-serif;
+  font-family: 'MuseoSans500', Helvetica, sans-serif;
   height: 50px;
+  font-size: 13px;
   line-height: 50px;
-  padding: 0 20px;
+  padding: 0 10px !important;
   color: $white;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
