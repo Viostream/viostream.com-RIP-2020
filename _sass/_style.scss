@@ -18,7 +18,6 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -139,6 +138,18 @@ h3{
 	margin-bottom: 40px;
 }
 
+.m-t-20{
+	margin-top: 20px;
+}
+
+.m-t-30{
+	margin-top: 30px;
+}
+
+.p-r-sm-100{
+	padding-right: 100px;
+}
+
 .no-padding{
 	padding: 0 !important;
 }
@@ -151,6 +162,25 @@ h3{
 	line-height: 1.5em;
 }
 
+.section-title{
+	font-size: 30px;
+	color: $dark-text-color;
+    display: inline-block;
+    padding-bottom: 17px;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.section-title:before{
+    content: "";
+    position: absolute;
+    width: 20%;
+    height: 1px;
+    bottom: 0%;
+    left: 40%;
+    border-bottom: 2px solid #2492ff;
+}
+
 .hero-subtitle{
 	font-size: 30px;
 	line-height: 1.5em;
@@ -160,17 +190,29 @@ h3{
 	font-size: 40px;
 }
 
+.btn{
+	font-family: MuseoSans500, Helvetica, sans-serif;
+	font-size: 16px;
+	text-transform: uppercase;
+	min-width: 220px;
+	padding: 10px 20px;
+}
+
 .btn-primary{
 	@include border-radius(100px);
-	padding: 10px 20px;
-	min-width: 220px;
-	font-size: 16px;
 	font-family: MuseoSans500, Helvetica, sans-serif;
 }
 
 .btn-lined{
 	background-color: transparent;
-	border: 1px solid #fff;
+	border: 1px solid $white;
+}
+
+.btn-lined-normal{
+	background-color: transparent;
+	border: 1px solid $dark-text-color;
+	color: $dark-text-color;
+	@include border-radius(5px);
 }
 
 .align-center{
@@ -181,13 +223,36 @@ h3{
 }
 
 /* @group Homepage banner */
-	.home-banner{
-		background: transparent url('../img/home-banner-bg.jpg') no-repeat center center;
-		background-size: cover;
-		min-height: 377px;
-		padding: 140px 0 80px 0;
-	}
+.home-banner{
+	background: transparent url('../img/home-banner-bg.jpg') no-repeat center center;
+	background-size: cover;
+	min-height: 377px;
+	
+	min-height: 20vh;
+}
 
+.home-hero{
+	padding: 15.375em 0 19.75em 0px ;
+}
+
+/* @end */
+
+/* @group Platform banner */
+.platform-banner{
+	background: transparent url('../img/home-banner-bg.jpg') no-repeat center center;
+	background-size: cover;
+	min-height: 377px;
+	padding: 140px 0 0px 0;
+}
+
+.platform-banner a.btn{
+	margin-top: 60px;
+	margin-bottom: 0;
+}
+
+.platform-banner a.iframe-video{
+
+}	
 /* @end */
 
 /* @group Cleint logos */
@@ -197,7 +262,7 @@ h3{
 }
 
 .client-logos img{
-	padding: 25px 0;
+	padding: 15px 0;
 }
 
 
@@ -285,40 +350,53 @@ h3{
 /* @group Carousel */
 
 ol.carousel-indicators li{
-    border-color: transparent;
-   margin-right: 50px;
+   position:relative;-webkit-box-flex:1;-webkit-flex:1 0 auto;-ms-flex:1 0 auto;flex:1 0 auto;max-width:55px !important;height:55px;margin-right:3px;margin-left:3px;text-indent:-999px;cursor:pointer;background-color:rgba(255,255,255,.5);
+   background-color: transparent !important;
+   margin-right: 20px !important;
+}
+
+ol.carousel-indicators li:last-child{
+	margin-right: 0 !important;
+}
+
+ol.carousel-indicators li:hover{
+	background-color: $white;
 }
 
 ol.carousel-indicators li img{
 	 @include border-radius(50px);
-	 min-width: 55px !important;
-	 height: 55px !important;
+	 margin-top: 40px;
+	 background: #fff !important;
+	 @include opacity(1);
+	 border: 2px solid $white;
+	 padding: 2px;
+	 
 }
 
-ol.carousel-indicators li.active{
-	
-    border-color: transparent;
-    background-color: transparent;
+ol.carousel-indicators li:hover img{
+	@include opacity(1);
 }
 
-ol.carousel-indicators li div{
-    border-radius: 50%;
-    background: rgba(0,0,0,0.8);
+ol.carousel-indicators li.active img{
+	@include opacity(1);
+	border: 2px solid #006DB6;   
 }
 
-ol.carousel-indicators li.active div{
-    border-radius: 50%;
-    background: rgba(255,255,255,0.8);
+#clients-testimonial{
+	margin-bottom: 70px;
 }
-
-
 
 .testimonial-content{
 	background-color: $primary-color;
 	color: $white;
-	padding: 65px 85px !important;
+	padding: 35px 25px 45px !important;
+}
+.testimonial-logo img{
+	margin-top: 10px !important;
+	border: 0 !important;
 }
 /* @end */
+
 /* @group Footer */
 	footer{
 		padding: 30px 0;
@@ -1592,6 +1670,7 @@ Primary style
   .cd-tabs-content li {
     padding: 2em 2em 2em 7em;
   }
+  
 }
 
 @media only screen and (min-width: 960px) {
@@ -1638,6 +1717,19 @@ Primary style
   }
   .cd-tabs-content li p {
   }
+  .testimonial-img a{
+  	display: block;
+  	background: transparent url('../img/home-play-button.png') no-repeat center center;
+  	z-index: 100;
+  }
+  .testimonial-img img{
+  	vertical-align: top;
+    position: relative;
+    z-index: -1;
+  }
+  .testimonial-content{
+  	padding: 65px 85px !important;
+  }
 }
 
 @-webkit-keyframes cd-fade-in {
@@ -1665,6 +1757,31 @@ Primary style
   }
 }
 
+#text{
+display:no ne;
+}
+.btn-container{
+  margin: auto;
+  height:44px;
+  width:166.23px;
+  
+}
+
+
+button{
+  user-select:none;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  cursor:pointer;
+  border:none;
+  padding:8px;
+  font-size:20px;
+  background:linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+  color:white;
+  font-family:cursive;
+  box-sizing:border-box;
+}
 
 
 

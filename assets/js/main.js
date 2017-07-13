@@ -1,4 +1,4 @@
-jQuery(document).ready(function($){
+$(document).ready(function($){
 	
 	$('.carousel').carousel({
 	    interval: false //changes the speed
@@ -7,6 +7,21 @@ jQuery(document).ready(function($){
 	$('.iframe-video').each(function() {
 		$(this).magnificPopup({type:'iframe'});
 	});
+	
+	$("#toggle").on('click', function(event){
+	    var elem = $("#toggle").text();
+	    if (elem == "Read More") {
+	      //Stuff to do when btn is in the read more state
+	      $("#toggle").text("Read Less");
+	      $("#text").slideDown( "slow" );
+	    } else {
+	      //Stuff to do when btn is in the read less state
+	      $("#toggle").text("Read More");
+	      $("#text").slideUp();
+	    }
+	  });
+	
+	
 
 	//if you change this breakpoint in the style.css file (or _layout.scss if you use SASS), don't forget to update this value as well
 	var MqL = 1170;
