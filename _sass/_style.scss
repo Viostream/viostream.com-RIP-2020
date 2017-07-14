@@ -110,6 +110,7 @@ h2{
 h3{
 	font-size: 18px;
 	font-family: MuseoSans500, Helvetica, sans-serif;
+	margin-bottom: 15px;
 }
 
 .t-white{
@@ -150,12 +151,21 @@ h3{
 	padding-right: 100px;
 }
 
+.p-t-50{
+	padding-top: 50px;
+}
+
+.p-t-100{
+	padding-top: 100px;
+}
+
+
 .no-padding{
 	padding: 0 !important;
 }
 
 .section-p{
-	padding: 60px 0;
+	padding: 50px 0;
 }
 
 .main-title{
@@ -168,7 +178,7 @@ h3{
     display: inline-block;
     padding-bottom: 17px;
     position: relative;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
 }
 
 .section-title:before{
@@ -425,12 +435,6 @@ ol.carousel-indicators li.active img{
 		margin: 0 5px;
 	}
 /* @end */
-	
-@media only screen and (max-width: 1169px) {
-	body.nav-on-left.overflow-hidden {
-	overflow: hidden;
-	}
-}
 
 input[type="search"]::-ms-clear {
   /* removes close icon - IE */
@@ -464,22 +468,6 @@ Main components
   -webkit-transition: -webkit-transform 0.3s;
   -moz-transition: -moz-transform 0.3s;
   transition: transform 0.3s;
-}
-@media only screen and (max-width: 1169px) {
-  .cd-main-content.nav-is-visible, .cd-main-header.nav-is-visible {
-    -webkit-transform: translateX(-260px);
-    -moz-transform: translateX(-260px);
-    -ms-transform: translateX(-260px);
-    -o-transform: translateX(-260px);
-    transform: translateX(-260px);
-  }
-  .nav-on-left .cd-main-content.nav-is-visible, .nav-on-left .cd-main-header.nav-is-visible {
-    -webkit-transform: translateX(260px);
-    -moz-transform: translateX(260px);
-    -ms-transform: translateX(260px);
-    -o-transform: translateX(260px);
-    transform: translateX(260px);
-  }
 }
 
 .cd-main-content {
@@ -525,12 +513,7 @@ Main components
 .cd-logo img {
   display: block;
 }
-@media only screen and (max-width: 1169px) {
-  .nav-on-left .cd-logo {
-    left: auto;
-    right: 5%;
-  }
-}
+
 @media only screen and (min-width: 1170px) {
   .cd-logo {
     top: 5px;
@@ -547,15 +530,7 @@ Main components
 .cd-header-buttons li {
   display: inline-block;
 }
-@media only screen and (max-width: 1169px) {
-  .nav-on-left .cd-header-buttons {
-    right: auto;
-    left: 5%;
-  }
-  .nav-on-left .cd-header-buttons li {
-    float: right;
-  }
-}
+
 @media only screen and (min-width: 1170px) {
   .cd-header-buttons {
     top: 8px;
@@ -817,12 +792,6 @@ Main components
   @include opacity(0);
 }
 
-@media only screen and (max-width: 1169px) {
-  .nav-on-left .cd-primary-nav, .nav-on-left .cd-primary-nav ul {
-    right: auto;
-    left: 0;
-  }
-}
 .cd-primary-nav .see-all a {
   /* different style for the See all button on mobile and tablet */
   color: $primary-color;
@@ -894,21 +863,6 @@ Main components
 }
 .cd-primary-nav .cd-nav-icons .cd-nav-item.item-8::before {
   background-image: url("../img/line-icon-8.svg");
-}
-@media only screen and (max-width: 1169px) {
-  .cd-primary-nav {
-    /* by default .cd-primary-nav is hidden - trick for iOS devices where you can see the navigation if you pull down */
-    visibility: hidden;
-    -webkit-transition: visibility 0s 0.3s;
-    -moz-transition: visibility 0s 0.3s;
-    transition: visibility 0s 0.3s;
-  }
-  .cd-primary-nav.nav-is-visible {
-    visibility: visible;
-    -webkit-transition: visibility 0s 0s;
-    -moz-transition: visibility 0s 0s;
-    transition: visibility 0s 0s;
-  }
 }
 
 @media only screen and (min-width: 1170px) {
@@ -1401,29 +1355,6 @@ Main components
   -moz-transition: opacity 0.3s 0s, visibility 0s 0s, -moz-transform 0.3s 0s;
   transition: opacity 0.3s 0s, visibility 0s 0s, transform 0.3s 0s;
 }
-@media only screen and (max-width: 1169px) {
-  .cd-overlay.is-visible {
-    -webkit-transform: translateX(-260px);
-    -moz-transform: translateX(-260px);
-    -ms-transform: translateX(-260px);
-    -o-transform: translateX(-260px);
-    transform: translateX(-260px);
-  }
-  .nav-on-left .cd-overlay.is-visible {
-    -webkit-transform: translateX(260px);
-    -moz-transform: translateX(260px);
-    -ms-transform: translateX(260px);
-    -o-transform: translateX(260px);
-    transform: translateX(260px);
-  }
-  .cd-overlay.is-visible.search-is-visible, .nav-on-left .cd-overlay.is-visible.search-is-visible {
-    -webkit-transform: translateX(0);
-    -moz-transform: translateX(0);
-    -ms-transform: translateX(0);
-    -o-transform: translateX(0);
-    transform: translateX(0);
-  }
-}
 
 /* -------------------------------- 
 
@@ -1672,7 +1603,21 @@ Primary style
   }
   
 }
-
+@media only screen and (max-width:768px){
+	[class*="col-"] {
+	      margin-bottom: 25px;
+	  }
+	.tour-hide-btn{
+		margin-bottom: 20px !important;
+	}
+	.p-t-100{
+		padding-top: 20px;
+	}
+	.p-t-50{
+		padding-top: 20px;
+	}
+	
+}
 @media only screen and (min-width: 960px) {
   .cd-tabs-navigation {
     /* tabbed on top on big devices */
@@ -1757,30 +1702,12 @@ Primary style
   }
 }
 
-#text{
-display:no ne;
-}
-.btn-container{
-  margin: auto;
-  height:44px;
-  width:166.23px;
-  
+#tour-content1,#tour-content2,,#tour-content3{
+display:none;
 }
 
-
-button{
-  user-select:none;
-  -webkit-user-select:none;
-  -moz-user-select:none;
-  -ms-user-select:none;
-  cursor:pointer;
-  border:none;
-  padding:8px;
-  font-size:20px;
-  background:linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
-  color:white;
-  font-family:cursive;
-  box-sizing:border-box;
+.tour-hide-btn{
+	margin-bottom: 50px;
 }
 
 

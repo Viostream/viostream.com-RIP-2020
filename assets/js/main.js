@@ -1,4 +1,4 @@
-$(document).ready(function($){
+jQuery(document).ready(function($){
 	
 	$('.carousel').carousel({
 	    interval: false //changes the speed
@@ -8,19 +8,40 @@ $(document).ready(function($){
 		$(this).magnificPopup({type:'iframe'});
 	});
 	
-	$("#toggle").on('click', function(event){
-	    var elem = $("#toggle").text();
-	    if (elem == "Read More") {
-	      //Stuff to do when btn is in the read more state
-	      $("#toggle").text("Read Less");
-	      $("#text").slideDown( "slow" );
+	$(".tour").on('click', function(event){
+	    var elem = $(this).text();
+	    var anchor = $(this).attr('href');
+	    if (elem == "Learn more") {
+	      $(this).text("Hide details");
+	      $(anchor).slideDown("slow"); 
+	      $('html, body').animate({
+	              scrollTop: $( $(this).attr('href') ).offset().top
+	          }, 500);
+	          return false;
 	    } else {
-	      //Stuff to do when btn is in the read less state
-	      $("#toggle").text("Read More");
-	      $("#text").slideUp();
+	      $(this).text("Learn more");
+	      $(anchor).slideUp("slow");
+	      var mainDivHeight = $('.tour-section').height();
+	      $('html, body').animate({
+	              scrollTop: $( $(this).attr('href') ).offset().top-(mainDivHeight+140)
+	          }, 500);
+	          return false;
 	    }
 	  });
 	
+	$(".tour-hide-btn").on('click', function(event){
+		var anchor = $(this).attr('href');
+	    var elem = $(this).text();
+	    if (elem == "Hide details") {
+	      $(this).closest('.tour-wrapper').find('.tour').text("Learn more");
+	      $(anchor).slideUp("slow");
+	      var mainDivHeight = $('.tour-section').height();
+	      $('html, body').animate({
+	              scrollTop: $( $(this).attr('href') ).offset().top-(mainDivHeight+140)
+	          }, 500);
+	          return false;
+	    } 
+	  });
 	
 
 	//if you change this breakpoint in the style.css file (or _layout.scss if you use SASS), don't forget to update this value as well
