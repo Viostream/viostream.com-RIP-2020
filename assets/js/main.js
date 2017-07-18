@@ -1,5 +1,26 @@
 jQuery(document).ready(function($){
 	
+	//Accordian Action
+	
+	$('li.ques').on('click', function(){
+	  //gets next element
+	  
+	  //opens .a of selected question
+	$(this).next().slideToggle(500)
+	    //selects all other answers and slides up any open answer
+	    .siblings('li.ans').slideUp();
+	$(this).siblings('li').removeClass('active');
+	$(this).toggleClass('active');    
+	  
+//	  //Grab img from clicked question
+//	var img = $(this).children('img');
+//	  //Remove Rotate class from all images except the active
+//	  $('img').not(img).removeClass('rotate');
+//	  //toggle rotate class
+//	  img.toggleClass('rotate');
+	
+	});//End on click
+	
 	$('.carousel').carousel({
 	    interval: false //changes the speed
 	})
