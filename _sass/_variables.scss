@@ -1,4 +1,4 @@
-// TYPOGRAPHY ================================================
+/* TYPOGRAPHY ================================================ */
 $base-font                : 'source-sans-pro', sans-serif;
 $heading-font             : $base-font;
 
@@ -6,7 +6,7 @@ $doc-font-size            : 16;
 $doc-line-height          : 24;
 
 
-// COLORS =====================================================
+/* COLORS ================================================ */
 
 $body-text-color          : #7E8890;
 $base-color               : #343434;
@@ -43,10 +43,10 @@ $link-color               : $primary-color;
 @mixin opacity($opacity) {
   opacity: $opacity;
   $opacity-ie: $opacity * 100;
-  filter: alpha(opacity=$opacity-ie); //IE8
+  filter: alpha(opacity=$opacity-ie); /* IE8 */
 }
 
-// 	BROWSER PREFIXES ================================================
+/* 	BROWSER PREFIXES ================================================ */
 @mixin transform($transforms) {
 	-webkit-transform: $transforms;
 	-moz-transform: $transforms;
@@ -55,40 +55,40 @@ $link-color               : $primary-color;
 	transform: $transforms;
 }
 
-// ROTATE ================================================
+/* ROTATE ================================================ */
 @mixin rotate ($deg) { 
 	@include transform(rotate(#{$deg}deg));
 }
 
-// SCALE ================================================
+/* SCALE ================================================ */
 @mixin scale($scale) {
 	@include transform(scale($scale));
 }
 
-// TRANSLATE ================================================
+/* TRANSLATE ================================================ */
 @mixin translate ($x, $y) {
 	@include transform(translate($x, $y));
 }
 
-// SKEW ================================================
+/* SKEW ================================================ */
 @mixin skew ($x, $y) {
 	@include transform(skew(#{$x}deg, #{$y}deg));
 }
 
-// TRANSFORM ORIGIN ================================================
+/* TRANSFORM ORIGIN ================================================ */
 @mixin transform-origin ($origin) {
     	-webkit-transform-origin: $origin;
     	-moz-transform-origin: $origin;
 	-ms-transform-origin: $origin;
 	transform-origin: $origin;
 }
-// BACKFACE VISIBILITY ================================================
+/* BACKFACE VISIBILITY ================================================ */
 @mixin backface-visibility ($visibility){
 	-webkit-backface-visibility: $visibility;
 	backface-visibility: $visibility;
 }
 
-// TRANSITION ================================================
+/* TRANSITION ================================================ */
 @mixin transition-with-opacity($opacitytime, $transformtime){
 transition: opacity $opacitytime, transform $transformtime;
 -webkit-transition: opacity $opacitytime, -webkit-transform $transformtime;;
