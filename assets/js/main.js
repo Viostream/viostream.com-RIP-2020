@@ -64,7 +64,8 @@ jQuery(document).ready(function($){
 	    } 
 	  });
 	
-
+	// Navigation
+	
 	//if you change this breakpoint in the style.css file (or _layout.scss if you use SASS), don't forget to update this value as well
 	var MqL = 1170;
 	//move nav element position according to window width
@@ -123,7 +124,7 @@ jQuery(document).ready(function($){
 		event.preventDefault();
 	});
 	//open submenu
-	$('.has-children').children('a').on('click', function(event){
+	$('.has-children').children('a').on('mouseover', function(event){
 		if( !checkWindowWidth() ) event.preventDefault();
 		var selected = $(this);
 		if( selected.next('ul').hasClass('is-hidden') ) {
@@ -302,15 +303,15 @@ jQuery(document).ready(function($){
 	})
 
 	//fix lateral filter and gallery on scrolling
-	$(window).on('scroll', function(){
-		(!window.requestAnimationFrame) ? fixGallery() : window.requestAnimationFrame(fixGallery);
-	});
+//	$(window).on('scroll', function(){
+//		(!window.requestAnimationFrame) ? fixGallery() : window.requestAnimationFrame(fixGallery);
+//	});
 
-	function fixGallery() {
-		var offsetTop = $('.cd-main-filter-content').offset().top,
-			scrollTop = $(window).scrollTop();
-		( scrollTop >= offsetTop ) ? $('.cd-main-filter-content').addClass('is-fixed') : $('.cd-main-filter-content').removeClass('is-fixed');
-	}
+//	function fixGallery() {
+//		var offsetTop = $('.cd-main-filter-content').offset().top,
+//			scrollTop = $(window).scrollTop();
+//		( scrollTop >= offsetTop ) ? $('.cd-main-filter-content').addClass('is-fixed') : $('.cd-main-filter-content').removeClass('is-fixed');
+//	}
 
 	/************************************
 		MitItUp filter settings

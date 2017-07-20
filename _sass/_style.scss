@@ -1544,6 +1544,15 @@ Main components
     content: "";
     display: table;
   }
+  
+ /* .cd-primary-nav .cd-secondary-nav{
+  	visibility: hidden;
+  }
+  
+  .cd-primary-nav:hover .cd-secondary-nav{
+  	visibility: visible;
+  }*/
+  
   .cd-primary-nav .cd-secondary-nav.is-hidden, .cd-primary-nav .cd-nav-gallery.is-hidden, .cd-primary-nav .cd-nav-icons.is-hidden {
     opacity: 0;
     visibility: hidden;
