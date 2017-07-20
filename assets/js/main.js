@@ -124,7 +124,7 @@ jQuery(document).ready(function($){
 		event.preventDefault();
 	});
 	//open submenu
-	$('.has-children').children('a').on('mouseover', function(event){
+	$('.has-children').children('a').on('click', function(event){
 		if( !checkWindowWidth() ) event.preventDefault();
 		var selected = $(this);
 		if( selected.next('ul').hasClass('is-hidden') ) {
