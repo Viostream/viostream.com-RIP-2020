@@ -81,6 +81,7 @@ a:hover{
 	text-decoration: none !important;
 }
 
+
 p{
 	padding: 0 0 20px 0;
 }
@@ -114,7 +115,7 @@ h3{
 }
 
 .t-white{
-	color: #fff !important;
+	color: $white !important;
 }
 
 .uppercase{
@@ -250,7 +251,7 @@ h3{
 	color: $dark-text-color;
 	@include border-radius(5px);
 	text-align: left;
-	background: url('../img/arrow-down-sm.png') no-repeat 90% 50% #fff !important;
+	background: url('../img/arrow-down-sm.png') no-repeat 90% 50% $white !important;
 }
 
 .align-center{
@@ -466,7 +467,7 @@ h3{
     @include border-radius(5px);
     font-size: 16px;
     color: $grey-color;
-    background: url('../img/arrow-down-sm.png') no-repeat 95% 50% #fff !important;
+    background: url('../img/arrow-down-sm.png') no-repeat 95% 50% $white !important;
     margin: auto !important;
     text-align: center !important;
     max-width: 1000px !important;
@@ -511,7 +512,7 @@ ol.carousel-indicators li:hover{
 ol.carousel-indicators li img{
 	 @include border-radius(50px);
 	 margin-top: 40px;
-	 background: #fff !important;
+	 background: $white !important;
 	 @include opacity(1);
 	 border: 2px solid $white;
 	 padding: 2px;
@@ -656,7 +657,7 @@ Primary style
   text-decoration: none !important;
 }
 .cd-tabs-navigation a.selected {
-  background-color: #ffffff !important;
+  background-color: $white !important;
   color: $link-color !important;
 }
 .cd-tabs-navigation a::before {
@@ -709,7 +710,7 @@ Primary style
 }
 
 .cd-tabs-content {
-  background: #ffffff;
+  background: $white;
 }
 .cd-tabs-content li {
   display: none;
@@ -880,7 +881,7 @@ display:none;
 
 .tour-hide-btn{
 	margin-bottom: 50px;
-	background: url('../img/arrow-up-sm.png') no-repeat 90% 50% #fff !important;
+	background: url('../img/arrow-up-sm.png') no-repeat 90% 50% $white !important;
 }
 
 
@@ -894,14 +895,14 @@ display:none;
 .faq li { padding: 20px; }
 
 .faq li.ques.active{
-	background: url('../img/arrow-up-sm.png') no-repeat 98% 50% #fff !important;
+	background: url('../img/arrow-up-sm.png') no-repeat 98% 50% $white !important;
 }
 
 .faq li.ques {
   color: $dark-text-color;
   border-bottom: 1px #ddd solid;
   cursor: pointer;
-  background: url('../img/arrow-down-sm.png') no-repeat 98% 50% #fff !important;
+  background: url('../img/arrow-down-sm.png') no-repeat 98% 50% $white !important;
   
 }
 
@@ -927,7 +928,7 @@ display:none;
 	padding: 0px 20px;
 	margin: 10px 15px;
 	list-style-type: none;
-	background: url('../img/arrow-right-sm.png') no-repeat 0% 8px #fff !important;
+	background: url('../img/arrow-right-sm.png') no-repeat 0% 8px $white !important;
 }
 
 .post-list li{
@@ -949,27 +950,16 @@ display:none;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media screen and (max-width: 1280px) and (min-width: 300px) { 
+	.inner-head{
+		padding: 0 2em !important;
+	}
+	.cd-logo{
+		position: absolute;
+		top: 15px;
+		left: 3% !important;
+	}
+}
 
 
 
@@ -1049,7 +1039,7 @@ Main components
 @media only screen and (min-width: 1170px) {
   .cd-main-header {
     /*height: 54px;*/
-    padding: 15px 0;
+    padding: 30px 0;
     background-color: transparent;
     position: absolute;
     margin-left: auto;
@@ -1080,7 +1070,7 @@ Main components
 }
 @media only screen and (min-width: 1170px) {
   .cd-logo {
-    top: 5px;
+    top: 0px;
     left: 5em;
   }
 }
@@ -1088,8 +1078,8 @@ Main components
 .cd-header-buttons {
   position: absolute;
   display: inline-block;
-  top: 3px;
-  right: 5%;
+  top: 20px;
+  right: 3%;
 }
 .cd-header-buttons li {
   display: inline-block;
@@ -1105,7 +1095,7 @@ Main components
 }
 @media only screen and (min-width: 1170px) {
   .cd-header-buttons {
-    top: 18px;
+    top: 5px;
     right: 4em;
   }
 }
@@ -1145,13 +1135,13 @@ Main components
   width: 18px;
   height: 18px;
   border-radius: 50%;
-  border: 3px solid #2e3233;
+  border: 3px solid $white;
 }
 .cd-search-trigger::after {
   /* handle */
   height: 3px;
   width: 8px;
-  background: #2e3233;
+  background: $white;
   bottom: 14px;
   right: 11px;
   -webkit-transform: rotate(45deg);
@@ -1179,7 +1169,7 @@ Main components
   margin-top: -2px;
   left: 50%;
   margin-left: -11px;
-  background: #2e3233;
+  background: $white;
   opacity: 0;
   /* Force Hardware Acceleration in WebKit */
   -webkit-transform: translateZ(0);
@@ -1236,7 +1226,7 @@ Main components
   display: inline-block;
   height: 3px;
   width: 24px;
-  background: #2e3233;
+  background: $white;
 }
 .cd-nav-trigger span {
   /* line in the center */
@@ -1283,7 +1273,7 @@ Main components
 }
 .cd-nav-trigger.nav-is-visible span::before, .cd-nav-trigger.nav-is-visible span::after {
   /* keep visible other 2 lines */
-  background: #2e3233;
+  background: $white;
 }
 .cd-nav-trigger.nav-is-visible span::before {
   -webkit-transform: translateX(4px) translateY(-3px) rotate(45deg);
@@ -1315,6 +1305,7 @@ Main components
   overflow: auto;
   -webkit-overflow-scrolling: touch;
   z-index: 1;
+  padding-top: 20px;
   /* Force Hardware Acceleration in WebKit */
   -webkit-transform: translateZ(0);
   -moz-transform: translateZ(0);
@@ -1330,15 +1321,17 @@ Main components
   -moz-transition: -moz-transform 0.3s;
   transition: transform 0.3s;
 }
+.cd-primary-nav > li > a{
+	text-transform: uppercase;
+}
 .cd-primary-nav a, .cd-primary-nav ul a {
   display: block;
   font-family: 'MuseoSans500', Helvetica, sans-serif;
   height: 50px;
   line-height: 50px;
-  padding: 0 10px !important;
-  color: #ffffff;
+  padding: 0 10px;
+  color: $white;
   font-size: 14px;
-  text-transform: uppercase;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow: hidden;
@@ -1408,7 +1401,7 @@ Main components
   padding-left: 75px;
 }
 .cd-primary-nav .cd-nav-icons .cd-nav-item p {
-  color: #2e3233;
+  color: $white;
   font-size: 1.3rem;
   /* hide description on small devices */
   display: none;
@@ -1470,7 +1463,7 @@ Main components
 @media only screen and (min-width: 1170px) {
   .cd-primary-nav {
     position: static;
-    padding: 0 0px 0 0;
+    padding: 0 20px 0 0;
     margin: 0;
     height: auto;
     width: auto;
@@ -1547,10 +1540,12 @@ Main components
   .cd-primary-nav .cd-secondary-nav, .cd-primary-nav .cd-nav-gallery, .cd-primary-nav .cd-nav-icons {
     /* dropdown menu style */
     position: absolute;
-    top: 70px;
-    width: 1170px;
-    background: #ffffff;
-    padding: 30px 64px 30px;
+    top: 50px;
+    width: 250px;
+    left: 10px;
+    /*width: 1170px;*/
+    background: $white;
+    padding: 20px;
     /*box-shadow: inset 0 1px 0 #e2e3df, 0 3px 6px rgba(0, 0, 0, 0.05);*/
     -webkit-transform: translateX(0);
     -moz-transform: translateX(0);
@@ -1566,6 +1561,18 @@ Main components
     content: "";
     display: table;
   }
+  
+  .cd-secondary-nav{
+  	display: none;
+  }
+  .cd-primary-nav > li:hover ul.cd-secondary-nav,.cd-primary-nav > li ul.cd-secondary-nav:hover{
+  	display: block;
+  }
+  
+ /* .cd-primary-nav a:hover{
+  	visibility: visible;
+  	display: block;
+  }*/
   
  /* .cd-primary-nav .cd-secondary-nav{
   	visibility: hidden;
@@ -1616,13 +1623,14 @@ Main components
   .cd-primary-nav .cd-secondary-nav > .see-all a:hover, .cd-primary-nav .cd-nav-gallery > .see-all a:hover, .cd-primary-nav .cd-nav-icons > .see-all a:hover {
     background: #2e3233;
     border-color: #2e3233;
-    color: #ffffff;
+    color: $white;
   }
   .cd-primary-nav .cd-secondary-nav > li {
     /* change the height according to your needs - you can even set height: auto */
-    height: 340px;
+    height: auto;
     /* here you set the number of columns - use width percentage */
-    width: 30%;
+    width: 100%;
+   /* width: 33%;*/
     float: left;
     margin-right: 3.3%;
     overflow: hidden;
@@ -1637,9 +1645,6 @@ Main components
   }
   .cd-primary-nav .cd-secondary-nav > li > a {
     /* secondary nav title */
-    color: #2492FF;
-    font-size: 1.6rem;
-    margin-bottom: .6em;
   }
   .cd-primary-nav .cd-secondary-nav a {
     height: 30px;
@@ -1659,6 +1664,8 @@ Main components
     -ms-transform: translateZ(0);
     -o-transform: translateZ(0);
     transform: translateZ(0);
+    padding-top: 0;
+    padding-bottom: 20px;
   }
   .cd-primary-nav .cd-secondary-nav ul ul {
     /* tertiary navigation */
@@ -1749,6 +1756,9 @@ Main components
     left: 25px;
   }
 }
+.has-children{
+	position: relative;
+}
 .has-children > a, .go-back a {
   position: relative;
 }
@@ -1782,9 +1792,15 @@ Main components
 @media only screen and (min-width: 1170px) {
   .has-children > a::before, .has-children > a::after, .go-back a::before, .go-back a::after {
     background: #c9cbc4;
+    display: none;
   }
   .has-children > a:hover::before, .has-children > a:hover::after, .go-back a:hover::before, .go-back a:hover::after {
     background: #2492FF;
+  }
+  .cd-primary-nav .cd-secondary-nav >li > a.has-child{
+  	text-transform: uppercase;
+  	margin-bottom: 10px;
+  	font-family: 'MuseoSans700', Helvetica, sans-serif !important;
   }
 }
 
@@ -1821,7 +1837,7 @@ Main components
 
   .cd-primary-nav > .has-children > a {
     /* main navigation arrows on larger devices */
-    padding-right: 30px !important;
+    padding-right: 10px !important;
   }
   .cd-primary-nav > .has-children > a::before, .cd-primary-nav > .has-children > a::after {
     width: 9px;
@@ -1893,10 +1909,13 @@ Main components
 .cd-search input {
   border-radius: 0;
   border: none;
-  background: #ffffff;
+  background: $white;
   height: 100%;
   width: 100%;
   padding: 0 5%;
+  float: right;
+  margin-left: 0px;
+  margin-top: 25px;
   box-shadow: inset 0 1px 0 #e2e3df, 0 3px 6px rgba(0, 0, 0, 0.05);
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -1930,15 +1949,36 @@ Main components
   position: fixed;
 }
 @media only screen and (min-width: 1170px) {
-  .cd-search {
-    height: 120px;
-    top: 80px;
-  }
-  .cd-search input {
-    padding: 0 2em;
-    font-size: 3.2rem;
-    font-weight: 300;
-  }
+	.nav-btn-highlight {
+	    border: 1px solid $white;
+	    @include border-radius(50px);
+	    margin-left: 15px;
+	    height: 30px !important;
+	    margin-top: 10px;
+	}
+	
+	.nav-btn-highlight a{
+		line-height: 0px !important;
+		padding: 15px 30px !important;
+	}
+	.nav-btn-highlight:hover{
+		background-color: $primary-color;
+		border: 1px solid $primary-color;
+		transition: all 0.5s ease;
+	}
+	.nav-btn-highlight:hover a{
+		color: $white !important;
+	}
+	.cd-search {
+	/*height: 120px;*/
+	top: 80px;
+	}
+	.cd-search input {
+	padding: 0 2em;
+	width: 200px;
+	margin-right: 20px;
+	margin-top: 0;
+	}
 }
 
 .cd-overlay {
@@ -2076,7 +2116,7 @@ xtab-filter
 
 -------------------------------- */
 .cd-tab-filter-wrapper {
-  background-color: #ffffff;
+  background-color: $white;
   /*box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08);*/
   z-index: 1;
 }
@@ -2119,7 +2159,7 @@ xtab-filter
   position: absolute;
   top: 0;
   left: 0;
-  background-color: #ffffff;
+  background-color: $white;
  /* box-shadow: inset 0 -2px 0 $primary-color;*/
 }
 .cd-tab-filter li {
@@ -2145,7 +2185,7 @@ xtab-filter
 }
 .cd-tab-filter a.selected {
   background: $primary-color;
-  color: #ffffff;
+  color: $white;
 }
 .cd-tab-filter.is-open::after {
   /* small arrow rotation */
@@ -2299,7 +2339,7 @@ xfilter
   left: 0;
   width: 280px;
   height: 100%;
-  background: #ffffff;
+  background: $white;
   box-shadow: 4px 4px 20px transparent;
   z-index: 2;
   /* Force Hardware Acceleration in WebKit */
@@ -2340,7 +2380,7 @@ xfilter
   height: 50px;
   line-height: 50px;
   width: 60px;
-  color: #ffffff;
+  color: $white;
   text-align: center;
   background: #37296a;
   opacity: 0;
@@ -2407,7 +2447,7 @@ xfilter
     color: $primary-color;
   }
   .cd-filter-trigger.filter-is-visible, .cd-filter-trigger.filter-is-visible:hover {
-    color: #ffffff;
+    color: $white;
   }
 }
 
@@ -2465,7 +2505,7 @@ xcustom form elements
 .cd-filter-block .checkbox-label::before {
   /* shared style for input elements */
   border-radius: 0;
-  background-color: #ffffff;
+  background-color: $white;
   border: 2px solid #e6e6e6;
 }
 .cd-filter-block input[type='search'],
@@ -2484,7 +2524,7 @@ xcustom form elements
 .cd-filter-block input[type='text']:focus,
 .cd-filter-block select:focus {
   outline: none;
-  background-color: #ffffff;
+  background-color: $white;
   border-color: $primary-color;
 }
 .cd-filter-block input[type='search'] {
@@ -2589,7 +2629,7 @@ xcustom form elements
   /* check mark style for radio buttons */
   width: 6px;
   height: 6px;
-  background-color: #ffffff;
+  background-color: $white;
   left: 5px;
 }
 .cd-filter-block input[type=radio]:checked + label::before,

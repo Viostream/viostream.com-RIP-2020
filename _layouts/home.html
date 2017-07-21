@@ -5,43 +5,53 @@ layout: default
 
   {{ content }}
 
-<div class="home-banner text-center">
+<div class="home-banner text-center" role="banner">
     <div class="container-fluid">
     	<div class="container home-hero">
-       <h1 class="main-title t-white">The Enterprise Video Platform</h1>
-       <h2 class="hero-subtitle t-white">for driving engagement</h2>
-      
-       <a class="iframe-video m-tb-50" href="http://publish.viostream.com/embed/player?video=ctoaztbuhw9ec&amp;playerKey=s-bynt639&amp;width=640&amp;height=360">
-       <img src="/assets/img/home-play-button.png" alt="Play video" />
-       </a>
-       
-       
-       <p>
-         <a href="#" class="btn btn-primary btn-lined uppercase m-r-20">Free trial</a>
-         <a href="#" class="btn btn-primary uppercase">Plan &amp; Pricing</a>
-       </p>
+			<h1 class="main-title t-white">The Enterprise Video Platform</h1>
+			<h2 class="hero-subtitle t-white">for driving engagement</h2>
+			
+			<a class="iframe-video m-tb-50" href="http://publish.viostream.com/embed/player?video=ctoaztbuhw9ec&amp;playerKey=s-bynt639&amp;width=640&amp;height=360" aria-label="Plays a video in a lightbox" title="Play video button">
+			<img src="/assets/img/home-play-button.png" alt="Play video" />
+			</a>
+	       <p>
+	         <a href="#" class="btn btn-primary btn-lined uppercase m-r-20" aria-label="Takes to free trial form page" title="Free trial button">Free trial</a>
+	         <a href="#" class="btn btn-primary uppercase" aria-label="Takes to pricing page" title="Plan and pricing button">Plan &amp; Pricing</a>
+	       </p>
        </div>
     </div>
     <div class="container-fluid client-logos">
     	<div class="container">
     		<div class="row text-center">
     			<div class="col-4 col-md-2">
-    				<img src="/assets/img/client-logos/Macquarie-logo.png" alt="Macquarie" />
+    				<figure>
+    					<img src="/assets/img/client-logos/macquarie-logo.png" alt="Macquarie logo" />
+    				</figure>
     			</div>
     			<div class="col-4 col-md-2">
-    				<img src="/assets/img/client-logos/dimension-data-logo.png" alt="Dimension data" />
+    				<figure>
+    					<img src="/assets/img/client-logos/dimension-data-logo.png" alt="Dimension data logo" />
+    				<figure>
     			</div>
     			<div class="col-4 col-md-2">
-    				<img src="/assets/img/client-logos/google-logo.png" alt="Google" />
+    				<figure>
+    					<img src="/assets/img/client-logos/google-logo.png" alt="Google logo" />
+    				</figure>
     			</div>
     			<div class="col-4 col-md-2">
-    				<img src="/assets/img/client-logos/deloitte-logo.png" alt="Deloitte" />
+    				<figure>
+    					<img src="/assets/img/client-logos/deloitte-logo.png" alt="Deloitte logo" />
+    				</figure>
     			</div>
     			<div class="col-4 col-md-2">
-    				<img src="/assets/img/client-logos/westfield-logo.png" alt="Westfield" />
+    				<figure>
+    					<img src="/assets/img/client-logos/westfield-logo.png" alt="Westfield logo" />
+    				</figure>
     			</div>
     			<div class="col-4 col-md-2">
-    				<img src="/assets/img/client-logos/QBE-logo.png" alt="QBE" />
+    				<figure>
+    					<img src="/assets/img/client-logos/QBE-logo.png" alt="QBE logo" />
+    				</figure>
     			</div>
     		</div>
     	</div>
@@ -75,11 +85,11 @@ layout: default
 <div class="cd-tabs">
 	<nav>
 		<ul class="cd-tabs-navigation">
-			<li><a data-content="video-sourcing" class="selected" href="#0">Video sourcing</a></li>
-			<li><a data-content="live-streaming" href="#0">Live streaming</a></li>
-			<li><a data-content="video-hub" href="#0">Video hub</a></li>
-			<li><a data-content="video-distribution" href="#0">Video distribution</a></li>
-			<li><a data-content="viewer-engagement" href="#0">Viewer engagement</a></li>
+			<li><a data-content="video-sourcing" class="selected" href="#0" aria-label="Tab link to show Video sourcing content below" title="Video sourcing tab link">Video sourcing</a></li>
+			<li><a data-content="live-streaming" href="#0" aria-label="Tab link to show Live streaming content below" title="Live streaming tab link">Live streaming</a></li>
+			<li><a data-content="video-hub" href="#0" aria-label="Tab link to show Video hub content below" title="Video hub tab link">Video hub</a></li>
+			<li><a data-content="video-distribution" href="#0" aria-label="Tab link to show Video distribution content below" title="Video distribution tab link">Video distribution</a></li>
+			<li><a data-content="viewer-engagement" href="#0" aria-label="Tab link to show Viewer engagement content below" title="Viewer engagement tab link">Viewer engagement</a></li>
 		</ul> <!-- cd-tabs-navigation -->
 	</nav>
 
@@ -89,10 +99,14 @@ layout: default
 			      <div class="row">
 			        <div class="col-md-6">
 			        	<h2 class="m-b-20">Video sourcing</h2>
-			        <p>Use your existing mobile devices to capture video. Record presentations and training sessions from your video or web conference systems.</p>
-			        <a href="#" class="btn btn-primary">Learn more</a>	
+				        <p>Use your existing mobile devices to capture video. Record presentations and training sessions from your video or web conference systems.</p>
+				        <a href="#" class="btn btn-primary" aria-label="Takes to video sourcing page" title="Learn more button">Learn more</a>	
 			        </div>
-			        <div class="col-md-6"><img src="/assets/img/video-workflow/video-sourcing.png" alt="Video sourcing" /></div>
+			        <div class="col-md-6">
+			        	<figure>
+			        		<img src="/assets/img/video-workflow/video-sourcing.png" alt="Video sourcing" />
+			        	</figure>
+			        </div>
 			      </div>
 			</div>
 		</li>
@@ -102,11 +116,14 @@ layout: default
 			      <div class="row">
 			        <div class="col-md-6">
 			        	<h2 class="m-b-20">Live streaming</h2>
-			        <p>Broadcast secure, reliable live streams to connect with your audience wherever they are, with online Q&amp;A and polling to engage them in real-time.</p>
-			        <a href="#" class="btn btn-primary">Learn more</a>	
+				        <p>Broadcast secure, reliable live streams to connect with your audience wherever they are, with online Q&amp;A and polling to engage them in real-time.</p>
+				        <a href="#" class="btn btn-primary" aria-label="Takes to live streaming page" title="Learn more button">Learn more</a>	
 			        </div>
-			        <div class="col-md-6"><img src="/assets/img/video-workflow/video-sourcing.png" alt="Video sourcing" /></div>
-			      </div>
+			        <div class="col-md-6">
+			        	<figure>
+			        		<img src="/assets/img/video-workflow/video-sourcing.png" alt="Video sourcing" />
+			        	</figure>
+					</div>
 			</div>
 		</li>
 
@@ -115,10 +132,14 @@ layout: default
 			      <div class="row">
 			        <div class="col-md-6">
 			        	<h2 class="m-b-20">Video hub</h2>
-			        <p>Manage all of your video assets securely in the cloud with tagging and speech search to make sure your people can easily find the content they’re after.</p>
-			        <a href="#" class="btn btn-primary">Learn more</a>	
+				        <p>Manage all of your video assets securely in the cloud with tagging and speech search to make sure your people can easily find the content they’re after.</p>
+				        <a href="#" class="btn btn-primary" aria-label="Takes to video hub page" title="Learn more button">Learn more</a>	
 			        </div>
-			        <div class="col-md-6"><img src="/assets/img/video-workflow/video-sourcing.png" alt="Video sourcing" /></div>
+			        <div class="col-md-6">
+			        	<figure>
+			        		<img src="/assets/img/video-workflow/video-sourcing.png" alt="Video sourcing" />
+			        	</figure>
+			        </div>
 			      </div>
 			</div>
 		</li>
@@ -131,7 +152,11 @@ layout: default
 			        <p>Integrate streaming video into your intranet, digital workplace, LMS or website and support video viewing at scale with intelligent distribution across your corporate network. </p>
 			        <a href="#" class="btn btn-primary">Learn more</a>	
 			        </div>
-			        <div class="col-md-6"><img src="/assets/img/video-workflow/video-sourcing.png" alt="Video sourcing" /></div>
+			        <div class="col-md-6">
+				        <figure>
+				        	<img src="/assets/img/video-workflow/video-sourcing.png" alt="Video sourcing" />
+				        </figure>
+			        </div>
 			      </div>
 			</div>
 		</li>
@@ -141,10 +166,14 @@ layout: default
 			      <div class="row">
 			        <div class="col-md-6">
 			        	<h2 class="m-b-20">Viewer engagement</h2>
-			        <p>Interactive video with clickable chapters, calls to action or searchable dialogue and deep insight into audience engagement through analytics.</p>
-			        <a href="#" class="btn btn-primary">Learn more</a>	
+				        <p>Interactive video with clickable chapters, calls to action or searchable dialogue and deep insight into audience engagement through analytics.</p>
+				        <a href="#" class="btn btn-primary">Learn more</a>	
 			        </div>
-			        <div class="col-md-6"><img src="/assets/img/video-workflow/video-sourcing.png" alt="Video sourcing" /></div>
+			        <div class="col-md-6">
+			        	<figure>
+			        		<img src="/assets/img/video-workflow/video-sourcing.png" alt="Video sourcing" />
+			        	</figure>
+			        </div>
 			      </div>
 			</div>
 		</li>
@@ -154,21 +183,27 @@ layout: default
 	<div class="row text-center section-p">
 		<div class="col-sm-12 col-md-4">
 			<div class="welcome">
-				<img src="/assets/img/welcome/problem.jpg" class="m-b-40" alt="Problem" />
+				<figure>
+					<img src="/assets/img/welcome/problem.jpg" class="m-b-40" alt="Problem" />
+				</figure>
 				<h3 class="uppercase m-b-20">Problem</h3>
 				<p>Business and technology leaders want to replicate the consumer video experience inside.	 </p>
 			</div>
 		</div>
 		<div class="col-sm-12 col-md-4">
 			<div class="welcome">
-				<img src="/assets/img/welcome/solution.jpg" class="m-b-40" alt="Solution" />
+				<figure>
+					<img src="/assets/img/welcome/solution.jpg" class="m-b-40" alt="Solution" />
+				</figure>
 				<h3 class="uppercase m-b-20">Solution</h3>
 				<p>Viostream is a simple to use video hub that integrates with your existing enterprise . </p>
 			</div>
 		</div>
 		<div class="col-sm-12 col-md-4">
 			<div class="welcome">
-				<img src="/assets/img/welcome/benefit.jpg" class="m-b-40" alt="Benefit" />
+				<figure>
+					<img src="/assets/img/welcome/benefit.jpg" class="m-b-40" alt="Benefit" />
+				</figure>
 				<h3 class="uppercase m-b-20">Benefit</h3>
 				<p>Viostream makes it easy to use streaming video securely to deliver messages and updates.</p>
 			</div>

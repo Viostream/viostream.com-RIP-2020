@@ -10,7 +10,7 @@ You can find the source code for Minima at GitHub:
 [jekyll][jekyll-organization] /
 [minima](https://github.com/jekyll/minima)
 
-<b>You can find the source code for Jekyll at GitHub:</b>asdf
+<strong>You can find the source code for Jekyll at GitHub:</strong>asdf
 [jekyll][jekyll-organization] /
 [jekyll](https://github.com/jekyll/jekyll)
 

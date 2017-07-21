@@ -73,7 +73,7 @@ jQuery(document).ready(function($){
 	$(window).on('resize', function(){
 		(!window.requestAnimationFrame) ? setTimeout(moveNavigation, 300) : window.requestAnimationFrame(moveNavigation);
 	});
-
+	
 	//mobile - open lateral menu clicking on the menu icon
 	$('.cd-nav-trigger').on('click', function(event){
 		event.preventDefault();
@@ -119,25 +119,30 @@ jQuery(document).ready(function($){
 	});
 
 
-	//prevent default clicking on direct children of .cd-primary-nav 
-	$('.cd-primary-nav').children('.has-children').children('a').on('click', function(event){
-		event.preventDefault();
-	});
+	
 	//open submenu
-	$('.has-children').children('a').on('click', function(event){
-		if( !checkWindowWidth() ) event.preventDefault();
-		var selected = $(this);
-		if( selected.next('ul').hasClass('is-hidden') ) {
-			//desktop version only
-			selected.addClass('selected').next('ul').removeClass('is-hidden').end().parent('.has-children').parent('ul').addClass('moves-out');
-			selected.parent('.has-children').siblings('.has-children').children('ul').addClass('is-hidden').end().children('a').removeClass('selected');
-			$('.cd-overlay').addClass('is-visible');
-		} else {
-			selected.removeClass('selected').next('ul').addClass('is-hidden').end().parent('.has-children').parent('ul').removeClass('moves-out');
-			$('.cd-overlay').removeClass('is-visible');
-		}
-		toggleSearch('close');
-	});
+	if ($(window).width()<= MqL) {
+		$('.cd-primary-nav').children('.has-children').children('a').on('click', function(event){
+			//prevent default clicking on direct children of .cd-primary-nav 
+			event.preventDefault();
+		});
+		$('.cd-secondary-nav').addClass('is-hidden');
+		$('.has-children').children('a').on('click', function(event){
+			if( !checkWindowWidth() ) event.preventDefault();
+			var selected = $(this);
+			if( selected.next('ul').hasClass('is-hidden') ) {
+				//desktop version only
+				selected.addClass('selected').next('ul').removeClass('is-hidden').end().parent('.has-children').parent('ul').addClass('moves-out');
+				selected.parent('.has-children').siblings('.has-children').children('ul').addClass('is-hidden').end().children('a').removeClass('selected');
+				$('.cd-overlay').addClass('is-visible');
+			} else {
+				selected.removeClass('selected').next('ul').addClass('is-hidden').end().parent('.has-children').parent('ul').removeClass('moves-out');
+				$('.cd-overlay').removeClass('is-visible');
+			}
+			toggleSearch('close');
+		});
+	}
+
 
 	//submenu items - go back link
 	$('.go-back').on('click', function(){
