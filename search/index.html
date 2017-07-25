@@ -1,0 +1,48 @@
+---
+layout: default
+title: "Search"
+date: 
+modified:
+excerpt:
+image:
+  feature:
+search_omit: true
+sitemap: false
+---
+ <div class="banner text-center">
+     <div class="container-fluid">
+     	<div class="container hero-text">
+ 	       <h1 class="main-title t-white m-b-40">Search</h1>
+ 	       <!-- Search form -->
+ 	       <div class="row">
+ 	       		<div class="col-md-8 offset-md-2">
+		 	       <form method="get" action="/search/" data-search-form class="search-form">
+		 	         <input type="search" name="q" id="q" placeholder="What are you looking for?" data-search-input id="goog-wm-qt" autofocus />
+		 	         <input type="submit" value="Search" id="goog-wm-sb" class="search-submit" />
+		 	       </form>
+	 	       </div>
+ 	       </div>
+ 	       <!-- Search results placeholder -->
+ 	       <h3 data-search-found class="text-center m-b-20 t-white">
+ 	         <span data-search-found-count></span> result(s) found for &ldquo;<strong data-search-found-term></strong>&rdquo;.
+ 	       </h3>
+        </div>
+     </div>
+ </div> 
+ <div class="container section-p">
+	
+	<ul class="row" data-search-results>
+	
+	</ul>
+	
+	<!-- Search result template -->
+	<script type="text/x-template" id="search-result">
+		<li class="col-md-4 p-b-50">
+		<article>
+			<h4><a href="##Url##" class="nostyle-link">##Title## </a></h4>
+			<p class="excerpt">##Excerpt##</p>
+	
+		</article>
+		</li>
+	</script>
+</div>
