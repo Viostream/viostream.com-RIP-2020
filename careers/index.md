@@ -9,7 +9,7 @@ search_omit: true
     <div class="container-fluid">
     	<div class="container hero-text">
     		<div class="col-md-12">
-				<h1 class="main-title t-white m-b-40">Join our team of experts</h1>
+				<h1 class="main-title t-white">Join our team of experts</h1>
 				<p class="hero-subtitle-small t-white">As an innovative and dynamic organisation, Viostream attracts high-calibre talent in the fields of software development, sales and customer success, production and technology support.
 				</p>
 				<p class="hero-subtitle-small t-white">
