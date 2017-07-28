@@ -176,6 +176,10 @@ strong{
 	padding-top: 50px;
 }
 
+.p-sm-t-100{
+	padding-top: 100px;
+}
+
 .p-b-50{
 	padding-bottom: 50px;
 }
@@ -188,9 +192,191 @@ strong{
 	padding-top: 30px;
 }
 
-.p-sm-lr-50{
+/*.p-sm-lr-50{
 	padding-left: 50px;
 	padding-right: 50px;
+}*/
+
+.left.text,.right.text{
+	max-width: 450px;
+	margin: auto;
+}
+
+.customer-use{
+	max-width: 600px;
+	margin: auto;
+	padding: 0 0 0 0px;
+}
+
+.align-v-center{
+	align-items:center;
+	display: -webkit-flex; /* Safari */
+	-webkit-align-items: center;
+	display: flex;
+	align-items: center;
+}
+
+.col-xs-offset-right-12 {
+  margin-right: 100%;
+}
+.col-xs-offset-right-11 {
+  margin-right: 91.66666667%;
+}
+.col-xs-offset-right-10 {
+  margin-right: 83.33333333%;
+}
+.col-xs-offset-right-9 {
+  margin-right: 75%;
+}
+.col-xs-offset-right-8 {
+  margin-right: 66.66666667%;
+}
+.col-xs-offset-right-7 {
+  margin-right: 58.33333333%;
+}
+.col-xs-offset-right-6 {
+  margin-right: 50%;
+}
+.col-xs-offset-right-5 {
+  margin-right: 41.66666667%;
+}
+.col-xs-offset-right-4 {
+  margin-right: 33.33333333%;
+}
+.col-xs-offset-right-3 {
+  margin-right: 25%;
+}
+.col-xs-offset-right-2 {
+  margin-right: 16.66666667%;
+}
+.col-xs-offset-right-1 {
+  margin-right: 8.33333333%;
+}
+.col-xs-offset-right-0 {
+  margin-right: 0;
+}
+@media (min-width: 768px) {
+  .col-sm-offset-right-12 {
+    margin-right: 100%;
+  }
+  .col-sm-offset-right-11 {
+    margin-right: 91.66666667%;
+  }
+  .col-sm-offset-right-10 {
+    margin-right: 83.33333333%;
+  }
+  .col-sm-offset-right-9 {
+    margin-right: 75%;
+  }
+  .col-sm-offset-right-8 {
+    margin-right: 66.66666667%;
+  }
+  .col-sm-offset-right-7 {
+    margin-right: 58.33333333%;
+  }
+  .col-sm-offset-right-6 {
+    margin-right: 50%;
+  }
+  .col-sm-offset-right-5 {
+    margin-right: 41.66666667%;
+  }
+  .col-sm-offset-right-4 {
+    margin-right: 33.33333333%;
+  }
+  .col-sm-offset-right-3 {
+    margin-right: 25%;
+  }
+  .col-sm-offset-right-2 {
+    margin-right: 16.66666667%;
+  }
+  .col-sm-offset-right-1 {
+    margin-right: 8.33333333%;
+  }
+  .col-sm-offset-right-0 {
+    margin-right: 0;
+  }
+}
+@media (min-width: 992px) {
+  .col-md-offset-right-12 {
+    margin-right: 100%;
+  }
+  .col-md-offset-right-11 {
+    margin-right: 91.66666667%;
+  }
+  .col-md-offset-right-10 {
+    margin-right: 83.33333333%;
+  }
+  .col-md-offset-right-9 {
+    margin-right: 75%;
+  }
+  .col-md-offset-right-8 {
+    margin-right: 66.66666667%;
+  }
+  .col-md-offset-right-7 {
+    margin-right: 58.33333333%;
+  }
+  .col-md-offset-right-6 {
+    margin-right: 50%;
+  }
+  .col-md-offset-right-5 {
+    margin-right: 41.66666667%;
+  }
+  .col-md-offset-right-4 {
+    margin-right: 33.33333333%;
+  }
+  .col-md-offset-right-3 {
+    margin-right: 25%;
+  }
+  .col-md-offset-right-2 {
+    margin-right: 16.66666667%;
+  }
+  .col-md-offset-right-1 {
+    margin-right: 8.33333333%;
+  }
+  .col-md-offset-right-0 {
+    margin-right: 0;
+  }
+}
+@media (min-width: 1200px) {
+  .col-lg-offset-right-12 {
+    margin-right: 100%;
+  }
+  .col-lg-offset-right-11 {
+    margin-right: 91.66666667%;
+  }
+  .col-lg-offset-right-10 {
+    margin-right: 83.33333333%;
+  }
+  .col-lg-offset-right-9 {
+    margin-right: 75%;
+  }
+  .col-lg-offset-right-8 {
+    margin-right: 66.66666667%;
+  }
+  .col-lg-offset-right-7 {
+    margin-right: 58.33333333%;
+  }
+  .col-lg-offset-right-6 {
+    margin-right: 50%;
+  }
+  .col-lg-offset-right-5 {
+    margin-right: 41.66666667%;
+  }
+  .col-lg-offset-right-4 {
+    margin-right: 33.33333333%;
+  }
+  .col-lg-offset-right-3 {
+    margin-right: 25%;
+  }
+  .col-lg-offset-right-2 {
+    margin-right: 16.66666667%;
+  }
+  .col-lg-offset-right-1 {
+    margin-right: 8.33333333%;
+  }
+  .col-lg-offset-right-0 {
+    margin-right: 0;
+  }
 }
 
 .no-padding{
@@ -203,6 +389,10 @@ strong{
 
 .inner-head{
 	padding: 0 5em;
+}
+
+a:hover img{
+	@include opacity(0.9);
 }
 
 .main-title{
@@ -233,9 +423,8 @@ strong{
 }
 
 .content-title{
-	font-size: 16px;
+	font-size: 18px;
 	font-family: 'MuseoSans500', Helvetica, sans-serif !important;
-	text-transform: uppercase;
 }
 
 .hero-subtitle{
@@ -328,6 +517,32 @@ a.nostyle-link:link, a.nostyle-link:visited{
 
 .banner{
 	background: $primary-off-color;
+}
+
+a.play-btn img{
+	@include transition(0.5s);
+	max-width: 100%;
+}
+
+a.play-btn{
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	display: inline-block;
+}
+
+a.play-btn:hover img{
+	-moz-transform: scale(1.1);
+	  -webkit-transform: scale(1.1);
+	  transform: scale(1.1);
+}
+
+a.play-btn:after {
+	content: '';
+	position: absolute;
+	top: 0; right: 0;
+	bottom: 0; left: 0;
+	background: transparent url('../img/play-btn.png') no-repeat center center;
 }
 
 
@@ -616,13 +831,14 @@ ol.carousel-indicators li.active img{
 
 #clients-testimonial{
 	margin-bottom: 70px;
+	background-color: $primary-color;
 }
 
 .testimonial-content{
-	background-color: $primary-color;
 	color: $white;
-	padding: 35px 25px 45px !important;
+	padding: 8% 6%;
 }
+
 .testimonial-logo img{
 	margin-top: 10px !important;
 	border: 0 !important;
@@ -866,9 +1082,19 @@ Primary style
 	[class*="col-"] {
 	      margin-bottom: 25px;
 	  }
+	.main-title{
+		font-size: 30px;
+	}
 	.tour-hide-btn{
 		margin-bottom: 20px !important;
 	}
+	
+	.video-container {
+		position: relative;
+		padding-bottom: 56.25%;
+	}
+}
+@media only screen and (max-width:1200px){
 	.section-p{
 		padding: 20px 0;
 	}
@@ -878,16 +1104,19 @@ Primary style
 	.p-sm-t-50{
 		padding-top: 20px;
 	}
+	.p-sm-t-100{
+		padding-top: 20px;
+	}
+	
 	p-sm-t-30{
 		padding-top: 0;
 	}
-	.p-sm-lr-50{
+	/*.p-sm-lr-50{
 		padding-left: 15px;
 		padding-right: 15px;
-	}
-	.video-container {
-		position: relative;
-		padding-bottom: 56.25%;
+	}*/
+	.p-b-50{
+		padding-bottom: 20px;
 	}
 }
 @media only screen and (min-width: 960px) {
@@ -936,7 +1165,7 @@ Primary style
   }
   .testimonial-img a{
   	display: block;
-  	background: transparent url('../img/home-play-button.png') no-repeat center center;
+  	/*background: transparent url('../img/home-play-button.png') no-repeat center center;*/
   	z-index: 100;
   }
   .testimonial-img img{
@@ -944,11 +1173,13 @@ Primary style
     position: relative;
     z-index: -1;
   }
-  .testimonial-content{
-  	padding: 65px 85px !important;
-  }
 }
 
+@media only screen and (min-width: 1200px){
+    .container {
+          width: 1500px !important;
+    }
+}
 @-webkit-keyframes cd-fade-in {
   0% {
     opacity: 0;
