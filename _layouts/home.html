@@ -4,13 +4,23 @@ layout: default
 
 
   {{ content }}
+<!--<video autoplay muted loop> 
+<source src="/viostream-hero-video.mp4" type="video/mp4">
+</video>-->
+<div class="videoContainer">
+<video poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg" id="bgvid" playsinline autoplay muted loop>
+  <!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
 
+<source src="/viostream-hero-video.mp4" type="video/mp4">
+</video>
+</div>
 <div class="home-banner text-center" role="banner">
     <div class="container-fluid">
+    	
     	<div class="container home-hero">
 			<h1 class="main-title t-white">The Enterprise Video Platform for driving engagement</h1>
 			
-			<a class="iframe-video mb-5" style="display: block;" href="http://publish.viostream.com/embed/player?video=ctoaztbuhw9ec&amp;playerKey=s-bynt639&amp;width=640&amp;height=360" aria-label="Plays a video in a lightbox" title="Play video button">
+			<a class="iframe-video mb-5" style="display: block;" href="http://publish.viostream.com/embed/player?video=ctoaztbhz5dtc&amp;playerKey=s-bynt639&amp;width=640&amp;height=360" aria-label="Plays a video in a lightbox" title="Play video button">
 			<img src="/assets/img/home-play-btn.png" alt="Play video" />
 			</a>
 	       <p>
@@ -61,27 +71,40 @@ layout: default
 <div class="container">
 	<div class="row text-center section-p">
 		<div class="col-sm-12 col-md-4">
-			<div class="welcome">
+			<div class="welcome as">
+				<figure>
+					<img src="/assets/img/ic-globe.png" style="max-width: 100px;" class="m-b-20" alt="Features" />
+				</figure>
 				<h3 class="uppercase m-b-20">Problem</h3>
 				<p>Business and technology leaders want to replicate the consumer video experience inside.	 </p>
 			</div>
 		</div>
 		<div class="col-sm-12 col-md-4">
-			<div class="welcome">
+			<div class="welcome as">
+				<figure>
+					<img src="/assets/img/ic-telepresence.png" style="max-width: 100px;" class="m-b-20" alt="Features" />
+				</figure>
 				<h3 class="uppercase m-b-20">Solution</h3>
 				<p>Viostream is a simple to use video hub that integrates with your existing enterprise . </p>
 			</div>
 		</div>
 		<div class="col-sm-12 col-md-4">
-			<div class="welcome">
+			<div class="welcome as">
+				<figure>
+					<img src="/assets/img/ic-network.png" style="max-width: 100px;" class="m-b-20" alt="Features" />
+				</figure>
 				<h3 class="uppercase m-b-20">Benefit</h3>
 				<p>Viostream makes it easy to use streaming video securely to deliver messages and updates.</p>
 			</div>
 		</div>
 	</div>
 </div>
-
-<div class="cd-tabs">
+<div class="row">
+	<div class="col-md-12 text-center">
+		<h2 class="section-title">Video workflow</h2>
+	</div>
+</div>
+<div class="cd-tabs section-p">
 	<nav>
 		<ul class="cd-tabs-navigation">
 			<li><a data-content="video-sourcing" class="selected" href="#0" aria-label="Tab link to show Video sourcing content below" title="Video sourcing tab link">Video sourcing</a></li>
@@ -179,32 +202,38 @@ layout: default
 	</ul> <!-- cd-tabs-content -->
 </div>
 <div class="container">
+	<div class="row">
+		<div class="col-md-12 text-center">
+			<h2 class="section-title">Product overview</h2>
+		</div>
+	</div>
 	<div class="row text-center section-p">
 		<div class="col-sm-12 col-md-4">
 			<div class="welcome">
 				<figure>
-					<img src="/assets/img/welcome/problem.jpg" class="m-b-40" alt="Problem" />
+					<img src="/assets/img/welcome/features.jpg" class="m-b-20" alt="Features" />
 				</figure>
-				<h3 class="uppercase m-b-20">Problem</h3>
-				<p>Business and technology leaders want to replicate the consumer video experience inside.	 </p>
+				<h3 class="uppercase m-b-20">Features</h3>
+				<p>Making and watching video is second nature in our personal lives. Viostream brings that capability into your organisation, with the security and control that enterprises need.	 </p>
 			</div>
 		</div>
 		<div class="col-sm-12 col-md-4">
 			<div class="welcome">
 				<figure>
-					<img src="/assets/img/welcome/solution.jpg" class="m-b-40" alt="Solution" />
+					<img src="/assets/img/welcome/interactivity.jpg" class="m-b-20" alt="Interactivity" />
 				</figure>
-				<h3 class="uppercase m-b-20">Solution</h3>
-				<p>Viostream is a simple to use video hub that integrates with your existing enterprise . </p>
+				<h3 class="uppercase m-b-20">Interactivity</h3>
+				<p>Video is a great way to get your people’s attention, and you can do more than just a play button to drive interaction with your message.</p>
 			</div>
 		</div>
 		<div class="col-sm-12 col-md-4">
 			<div class="welcome">
 				<figure>
-					<img src="/assets/img/welcome/benefit.jpg" class="m-b-40" alt="Benefit" />
+					<img src="/assets/img/welcome/integrations.jpg" class="m-b-20" alt="Integrations" />
 				</figure>
-				<h3 class="uppercase m-b-20">Benefit</h3>
-				<p>Viostream makes it easy to use streaming video securely to deliver messages and updates.</p>
+				<h3 class="uppercase m-b-20">Integrations</h3>
+				<p>Capture video using the tools you already have, and seamlessly integrate this content to upgrade the video capability of your communication channels.
+				</p>
 			</div>
 		</div>
 	</div>

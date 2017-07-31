@@ -44,6 +44,13 @@ table {
 }
 
 
+.welcome.as{
+	border: 1px solid #f1f1f1;
+	padding: 50px;
+	@include border-radius(10px);
+}
+
+
 /* -------------------------------- 
 
 Primary style
@@ -157,6 +164,10 @@ strong{
 
 .m-b-50{
 	margin-bottom: 50px;
+}
+
+.m-b-100{
+	margin-bottom: 100px;
 }
 
 .m-t-20{
@@ -558,14 +569,61 @@ a.play-btn:after {
 
 /* @group Homepage banner */
 .home-banner{
-	background: transparent url('../img/home-banner-bg.jpg') no-repeat center center;
+	/*background: transparent url('../img/home- banner-bg.jpg') no-repeat center center;*/
 	background-size: cover;
-	min-height: 377px;
-	min-height: 20vh;
+	min-height: 100vh;
+	z-index: 100;
+	background-color: rgba(0, 0, 0, .6);
+	
 }
 
+/*video { 
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 1080px;
+    width: auto;
+    height: auto;
+    z-index: -10;
+    transform: translateX(-50%) translateY(-50%);
+  background-size: cover;
+  transition: 1s opacity;
+}*/
+.videoContainer 
+{
+    position:absolute;
+    height:100%;
+    width:100%;
+    top: 0;
+    overflow: hidden;
+    background-color: rgba(0, 0,0, .8);
+    z-index: -1;
+}
+
+.videoContainer video 
+{
+    min-width: 100%;
+    min-height: 100%;
+}
+
+/*video { 
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+ background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
+  background-size: cover;
+  transition: 1s opacity;
+}*/
+
 .home-hero{
-	padding: 10em 0;
+	padding: 20em 0;
 }
 
 .hero-text{
@@ -916,7 +974,7 @@ Primary style
 .cd-tabs {
   position: relative;
   width: 100%;
-  max-width: 1170px;
+  max-width: 1500px;
   margin: 0 auto;
 }
 .cd-tabs:after {
@@ -955,7 +1013,6 @@ Primary style
 .cd-tabs nav {
   overflow: auto;
   -webkit-overflow-scrolling: touch;
-  background: #f8f7ee;
 }
 
 .cd-tabs-navigation {
@@ -973,71 +1030,67 @@ Primary style
 .cd-tabs-navigation a {
   position: relative;
   display: block;
-  height: 60px;
-  width: 60px;
+  height: 48px;
+  width: 100%;
   text-align: center;
   color: $medium-dark-text-color !important;
-  padding-top: 34px;
+  padding-top: 60px;
   border-bottom: 1px solid $light-grey;
+  text-indent: -9999px;
 }
 .no-touch .cd-tabs-navigation a:hover {
   color: $secondary-color;
-  background-color: rgba(233, 230, 202, 0.3);
+  /*background-color: rgba(233, 230, 202, 0.3);*/
   text-decoration: none !important;
 }
 .cd-tabs-navigation a.selected {
   background-color: $white !important;
   color: $link-color !important;
+  text-decoration: none;
 }
 .cd-tabs-navigation a::before {
   /* icons */
   position: absolute;
-  top: 12px;
+  top: 0px;
   left: 50%;
-  margin-left: -10px;
+  margin-left: -24px;
   display: inline-block;
-  height: 20px;
-  width: 20px;
-  background-image: url("../img/vicons.svg");
+  height: 48px;
+  width: 48px;
+  background-image: url("../img/workflow-icons.png");
   background-repeat: no-repeat;
 }
-.cd-tabs-navigation a[data-content='inbox']::before {
+.cd-tabs-navigation a[data-content='video-sourcing']::before {
   background-position: 0 0;
 }
-.cd-tabs-navigation a[data-content='new']::before {
-  background-position: -20px 0;
+.cd-tabs-navigation a[data-content='live-streaming']::before {
+  background-position: -48px 0;
 }
-.cd-tabs-navigation a[data-content='gallery']::before {
-  background-position: -40px 0;
+.cd-tabs-navigation a[data-content='video-hub']::before {
+  background-position: -96px 0;
 }
-.cd-tabs-navigation a[data-content='store']::before {
-  background-position: -60px 0;
+.cd-tabs-navigation a[data-content='video-distribution']::before {
+  background-position: -144px 3px;
 }
-.cd-tabs-navigation a[data-content='settings']::before {
-  background-position: -80px 0;
-}
-.cd-tabs-navigation a[data-content='trash']::before {
-  background-position: -100px 0;
-}
-.cd-tabs-navigation a[data-content='inbox'].selected::before {
-  background-position: 0 -20px;
-}
-.cd-tabs-navigation a[data-content='new'].selected::before {
-  background-position: -20px -20px;
-}
-.cd-tabs-navigation a[data-content='gallery'].selected::before {
-  background-position: -40px -20px;
-}
-.cd-tabs-navigation a[data-content='store'].selected::before {
-  background-position: -60px -20px;
-}
-.cd-tabs-navigation a[data-content='settings'].selected::before {
-  background-position: -80px -20px;
-}
-.cd-tabs-navigation a[data-content='trash'].selected::before {
-  background-position: -100px -20px;
+.cd-tabs-navigation a[data-content='viewer-engagement']::before {
+  background-position: -200px 0;
 }
 
+.cd-tabs-navigation a[data-content='video-sourcing'].selected::before {
+  background-position: 0 -49px;
+}
+.cd-tabs-navigation a[data-content='live-streaming'].selected::before {
+  background-position: -48px -49px;
+}
+.cd-tabs-navigation a[data-content='video-hub'].selected::before {
+  background-position: -96px -49px;
+}
+.cd-tabs-navigation a[data-content='video-distribution'].selected::before {
+  background-position: -144px -46px;
+}
+.cd-tabs-navigation a[data-content='viewer-engagement'].selected::before {
+  background-position: -200px -49px;
+}
 .cd-tabs-content {
   background: $white;
 }
@@ -1153,20 +1206,26 @@ Primary style
     font-family: MuseoSans500, Helvetica, sans-serif;
   }
   .cd-tabs-navigation a {
-    height: 60px;
+    height: 80px;
     line-height: 60px;
     width: auto;
-    text-align: left;
-    padding: 0 1.8em 0 3em;
+    padding: 1.5em 1em 0 1em;
+    text-indent: 0;
   }
   .cd-tabs-navigation a.selected {
     border-bottom: 1px solid $link-color;
   }
   .cd-tabs-navigation a::before {
-    top: 50%;
+    top: 2px;
     margin-top: -10px;
     margin-left: 0;
     left: 18px;
+    position: absolute;
+    left: 50%;
+    margin-left: -24px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    
   }
   .cd-tabs nav {
     position: relative;

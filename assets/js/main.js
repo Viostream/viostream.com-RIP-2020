@@ -264,6 +264,28 @@ jQuery(document).ready(function($){
 jQuery(document).ready(function($){
 	//open/close lateral filter
 
+	    
+//	updateDivsMargins();
+//	$(window).resize(updateDivsMargins);
+//	
+//	function updateDivsMargins() {
+//		
+//	    $('.home-hero').each(function () {
+//	    	console.log('Height: ' + $(this).height());
+//	        $(this).css({
+//	            'padding-top': ($(this).height() / 2),
+//	            'padding-bottom': ($(this).height() / 2)
+//	        });
+//	    });
+//	}
+	
+	$(window).resize(function() {
+	    $('.home-hero').height($(window).height() - 46);
+	});
+	
+	$(window).trigger('resize');
+	    
+
 	function triggerFilter($bool) {
 		var elementsToTrigger = $([$('.cd-filter-trigger'), $('.cd-filter'), $('.cd-tab-filter'), $('.cd-gallery')]);
 		elementsToTrigger.each(function(){
