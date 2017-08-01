@@ -2,17 +2,14 @@
 layout: default
 ---
 
-
   {{ content }}
-<!--<video autoplay muted loop> 
-<source src="/viostream-hero-video.mp4" type="video/mp4">
-</video>-->
-<div class="videoContainer">
-<video poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg" id="bgvid" playsinline autoplay muted loop>
-  <!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
 
-<source src="/viostream-hero-video.mp4" type="video/mp4">
-</video>
+<div class="video-container-home">
+	<video poster="/assets/img/home-video-bg.png" playsinline autoplay muted loop id="home-bg-video">
+		<source src="/assets/videos/hero-video.mp4" type="video/mp4">
+	</video>
+	
+	
 </div>
 <div class="home-banner text-center" role="banner">
     <div class="container-fluid">
@@ -44,7 +41,7 @@ layout: default
     			</div>
     			<div class="col-4 col-md-2">
     				<figure>
-    					<img src="/assets/img/client-logos/google-logo.png" alt="Google logo" />
+    					<img src="/assets/img/client-logos/nbn-logo.png" alt="NBN logo" />
     				</figure>
     			</div>
     			<div class="col-4 col-md-2">
@@ -54,7 +51,7 @@ layout: default
     			</div>
     			<div class="col-4 col-md-2">
     				<figure>
-    					<img src="/assets/img/client-logos/westfield-logo.png" alt="Westfield logo" />
+    					<img src="/assets/img/client-logos/suncorp-logo.png" alt="Suncorp logo" />
     				</figure>
     			</div>
     			<div class="col-4 col-md-2">

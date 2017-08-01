@@ -395,7 +395,7 @@ strong{
 }
 
 .section-p{
-	padding: 50px 0;
+	padding: 100px 0;
 }
 
 .inner-head{
@@ -573,54 +573,27 @@ a.play-btn:after {
 	background-size: cover;
 	min-height: 100vh;
 	z-index: 100;
-	background-color: rgba(0, 0, 0, .6);
+	background-color: rgba(0, 0, 0, .7);
 	
 }
 
-/*video { 
-    position: absolute;
-    top: 0%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 1080px;
-    width: auto;
-    height: auto;
-    z-index: -10;
-    transform: translateX(-50%) translateY(-50%);
-  background-size: cover;
-  transition: 1s opacity;
-}*/
-.videoContainer 
+.video-container-home 
 {
     position:absolute;
     height:100%;
     width:100%;
     top: 0;
     overflow: hidden;
-    background-color: rgba(0, 0,0, .8);
     z-index: -1;
 }
 
-.videoContainer video 
+.video-container-home video 
 {
     min-width: 100%;
     min-height: 100%;
+    width:auto;
+              height:auto;
 }
-
-/*video { 
-    position: absolute;
-    top: 0%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    transform: translateX(-50%) translateY(-50%);
- background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
-  background-size: cover;
-  transition: 1s opacity;
-}*/
 
 .home-hero{
 	padding: 20em 0;
@@ -697,6 +670,15 @@ a.play-btn:after {
 	position: relative;
 }*/
 
+.member-name h3 em{
+	font-size: 16px;
+	font-family: MuseoSans300, Helvetica, sans-serif;
+}
+
+.member-description{
+	text-align: left;
+}
+
 .member-social{
 	position: absolute;
 	top: 1%;
@@ -705,11 +687,6 @@ a.play-btn:after {
 
 .member-social:link,.member-social:visited{
 	color: $grey-color;
-}
-
-.member-name h3 em{
-	font-size: 16px;
-	font-family: MuseoSans300, Helvetica, sans-serif;
 }
 
 .member-social:hover{
