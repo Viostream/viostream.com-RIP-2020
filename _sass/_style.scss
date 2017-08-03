@@ -395,7 +395,7 @@ strong{
 }
 
 .section-p{
-	padding: 100px 0;
+	padding: 50px 0;
 }
 
 .inner-head{
@@ -419,7 +419,7 @@ a:hover img{
     display: inline-block;
     padding-bottom: 17px;
     position: relative;
-    margin-bottom: 0px;
+    margin: 50px auto;
 }
 
 .section-title:before{
@@ -574,25 +574,41 @@ a.play-btn:after {
 	min-height: 100vh;
 	z-index: 100;
 	background-color: rgba(0, 0, 0, .7);
-	
+}
+.wrapper{
+	background-color: #fff;
+}
+.video-bg {
+  background: #000;
+  position: fixed;
+  top: 0; 
+  right: 0; 
+  bottom: 0; 
+  left: 0;
+  z-index: -99;
+  max-width: 100%;
 }
 
-.video-container-home 
-{
-    position:absolute;
-    height:100%;
-    width:100%;
-    top: 0;
-    overflow: hidden;
-    z-index: -1;
+.video-fg video {
+   background: transparent url('../img/home-banner-bg.jpg') 50% 50% cover no-repeat ;
+ }
+
+.video-fg,
+.video-bg video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
 }
 
-.video-container-home video 
-{
-    min-width: 100%;
-    min-height: 100%;
-    width:auto;
-              height:auto;
+
+@media (min-aspect-ratio: 16/9) {
+  .video-fg { height: 300%; top: -100%; }
+}
+@media (max-aspect-ratio: 16/9) {
+  .video-fg { width: 300%; left: -100%; }
 }
 
 .home-hero{
@@ -910,6 +926,7 @@ ol.carousel-indicators li.active img{
 	footer{
 		padding: 30px 0;
 		font-size: 14px;
+		background-color: $white;
 	}
 	footer h3{
 		font-family: MuseoSans500, Helvetica, sans-serif;
@@ -1492,6 +1509,7 @@ Main components
 .cd-logo img {
   display: block;
 }
+
 @media only screen and (max-width: 1169px) {
   .nav-on-left .cd-logo {
     left: auto;
@@ -1508,12 +1526,23 @@ Main components
 .cd-header-buttons {
   position: absolute;
   display: inline-block;
-  top: 20px;
+  top: 0px;
   right: 3%;
 }
 .cd-header-buttons li {
   display: inline-block;
 }
+
+.search-btn{
+	color: $white;
+	line-height: 40px;
+	font-size: 20px;
+	padding-top: 0px;
+}
+.search-content{
+	
+}
+
 @media only screen and (max-width: 1169px) {
   .nav-on-left .cd-header-buttons {
     right: auto;
@@ -1526,7 +1555,7 @@ Main components
 @media only screen and (min-width: 1170px) {
   .cd-header-buttons {
     top: 5px;
-    right: 4em;
+    right: 4.5em;
   }
 }
 
@@ -1542,14 +1571,16 @@ Main components
   z-index: 3;
 }
 
-.cd-search-trigger::before, .cd-search-trigger::after {
-  /* search icon */
+
+
+/*.cd-search-trigger::before, .cd-search-trigger::after {
+  /* search icon *!/
   content: '';
   position: absolute;
   -webkit-transition: opacity 0.3s;
   -moz-transition: opacity 0.3s;
   transition: opacity 0.3s;
-  /* Force Hardware Acceleration in WebKit */
+  /* Force Hardware Acceleration in WebKit *!/
   -webkit-transform: translateZ(0);
   -moz-transform: translateZ(0);
   -ms-transform: translateZ(0);
@@ -1557,9 +1588,9 @@ Main components
   transform: translateZ(0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-}
-.cd-search-trigger::before {
-  /* lens */
+}*/
+/*.cd-search-trigger::before {
+  /* lens *!/
   top: 11px;
   left: 11px;
   width: 18px;
@@ -1568,7 +1599,7 @@ Main components
   border: 3px solid $white;
 }
 .cd-search-trigger::after {
-  /* handle */
+  /* handle *!/
   height: 3px;
   width: 8px;
   background: $white;
@@ -1581,7 +1612,7 @@ Main components
   transform: rotate(45deg);
 }
 .cd-search-trigger span {
-  /* container for the X icon */
+  /* container for the X icon *!/
   position: absolute;
   height: 100%;
   width: 100%;
@@ -1589,7 +1620,7 @@ Main components
   left: 0;
 }
 .cd-search-trigger span::before, .cd-search-trigger span::after {
-  /* close icon */
+  /* close icon *!/
   content: '';
   position: absolute;
   display: inline-block;
@@ -1601,7 +1632,7 @@ Main components
   margin-left: -11px;
   background: $white;
   opacity: 0;
-  /* Force Hardware Acceleration in WebKit */
+  /* Force Hardware Acceleration in WebKit *!/
   -webkit-transform: translateZ(0);
   -moz-transform: translateZ(0);
   -ms-transform: translateZ(0);
@@ -1628,11 +1659,11 @@ Main components
   transform: rotate(-45deg);
 }
 .cd-search-trigger.search-is-visible::before, .cd-search-trigger.search-is-visible::after {
-  /* hide search icon */
+  /* hide search icon *!/
   opacity: 0;
 }
 .cd-search-trigger.search-is-visible span::before, .cd-search-trigger.search-is-visible span::after {
-  /* show close icon */
+  /* show close icon *!/
   opacity: 1;
 }
 .cd-search-trigger.search-is-visible span::before {
@@ -1648,7 +1679,7 @@ Main components
   -ms-transform: rotate(45deg);
   -o-transform: rotate(45deg);
   transform: rotate(45deg);
-}
+}*/
 
 .cd-nav-trigger span, .cd-nav-trigger span::before, .cd-nav-trigger span::after {
   /* hamburger icon in CSS */

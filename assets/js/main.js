@@ -45,6 +45,7 @@ jQuery(document).ready(function($){
 		  }
 		}
 	});
+	
 
 	$(".tour").on('click', function(event){
 	    var elem = $(this).text();
@@ -279,6 +280,7 @@ jQuery(document).ready(function($){
 });
 
 jQuery(document).ready(function($){
+	// Change padding depending on the screen width and height
 	updateHHPadding();
 	$(window).resize(updateHHPadding);
 	
@@ -294,10 +296,6 @@ jQuery(document).ready(function($){
 		    });
 		});
 	}
-	
-	//	$('.iframe-video').on('mfpOpen', function(e /*, params */) {
-	//	  console.log('Popup opened',  $.magnificPopup.instance);
-	//	});
 	
 	
 	    
