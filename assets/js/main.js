@@ -1,5 +1,21 @@
 jQuery(document).ready(function($){
 	
+	//ANIMATED ITEMS
+	$('.animated').appear(function() {
+	    var elem = $(this);
+	    var animation = elem.data('animation');
+	    if ( !elem.hasClass('visible') ) {
+	       	var animationDelay = elem.data('animation-delay');
+	        if ( animationDelay ) {
+	            setTimeout(function(){
+	                elem.addClass( animation + " visible" );
+	            }, animationDelay);
+	        } else {
+	            elem.addClass( animation + " visible" );
+	        }
+	    }
+	});
+	
 	//Accordian Action
 	
 	$('li.ques').on('click', function(){
@@ -161,7 +177,8 @@ jQuery(document).ready(function($){
 		});
 	}
 
-
+	
+	
 	//submenu items - go back link
 	$('.go-back').on('click', function(){
 		$(this).parent('ul').addClass('is-hidden').parent('.has-children').parent('ul').removeClass('moves-out');

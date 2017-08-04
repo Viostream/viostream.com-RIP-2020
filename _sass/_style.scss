@@ -66,11 +66,11 @@ ul,li{
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 100%;
 }
 
 body {
-  font-size: 1.6rem;
+  font-size: $doc-font-size;
   font-family: 'MuseoSans300', Helvetica, sans-serif !important;
   color: $body-text-color !important;
   background-color: $white ;
@@ -90,7 +90,7 @@ a:hover{
 
 
 p{
-	padding: 0 0 20px 0;
+	padding: 0 0 1.5em 0;
 }
 
 img {
@@ -108,7 +108,7 @@ input {
 
 h1{
 	font-family: MuseoSlab100, Arial, Helvetica, Geneva, sans-serif;
-	font-size: 50px;
+	font-size: 3.125em;	
 }
 
 h4{
@@ -117,19 +117,20 @@ h4{
 
 h2, h3, h4{
 	color: $dark-text-color;
+	line-height: 1em;
+	margin-bottom: 0.667em;
 }
 
 h2{
-	font-size: 24px;
+	font-size: 1.5em;
 }
 
 h3{
-	font-size: 18px;
-	margin-bottom: 10px;
+	font-size: 1.125em;
 }
 
 h4{
-	font-size: 16px;
+	font-size: 1em;
 }
 
 strong{
@@ -1331,9 +1332,43 @@ display:none;
 
 /* @end */
 
-/* @group Post */
+/* @group Case study */
 
-.post-content li{
+.case-study-content{
+	font-size: 1.5em;
+	line-height: 1.5em;
+	text-align: center;
+}
+
+.testimonial {
+    margin: 0 auto;
+    padding-bottom: 16px;
+    background: transparent url(../img/testimonial-arrow.png) no-repeat 9% bottom;
+}
+
+.testimonial .testimonial-content {
+    font-family: MuseoSlab300;
+    border-radius: 10px;
+    padding: 40px 90px;
+    font-size: 25px;
+    font-style: italic;
+    line-height: 40px;
+    background-color: #2492ff;
+}
+
+.testimonial-author {
+    font-family: MuseoSans500;
+    margin: 28px 0px 0 50px;
+}
+
+/* @end */
+
+/* @group Post */
+.page-content ul, .post-content ul{
+	margin: 20px 0 40px 0;
+}
+
+.page-content li,.post-content li{
 	padding: 0px 20px;
 	margin: 10px 15px;
 	list-style-type: none;
@@ -2113,7 +2148,7 @@ Main components
     padding: 0 18% 0 0;
     color: #2e3233;
     border-bottom: none;
-    font-size: 1.4rem;
+    font-size: 0.875em;
   }
   .cd-primary-nav .cd-secondary-nav a:hover {
     color: #2492FF;
