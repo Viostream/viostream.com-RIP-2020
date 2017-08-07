@@ -117,7 +117,7 @@ h4{
 
 h2, h3, h4{
 	color: $dark-text-color;
-	line-height: 1em;
+	line-height: 1.5em;
 	margin-bottom: 0.667em;
 }
 
@@ -208,6 +208,14 @@ strong{
 	padding-left: 50px;
 	padding-right: 50px;
 }*/
+
+.animated {
+    visibility: hidden;
+}
+
+.visible{
+	visibility:visible;
+}
 
 .left.text,.right.text{
 	max-width: 450px;
@@ -399,6 +407,10 @@ strong{
 	padding: 50px 0;
 }
 
+.section-end{
+	padding-bottom: 50px;
+}
+
 .inner-head{
 	padding: 0 5em;
 }
@@ -437,6 +449,7 @@ a:hover img{
 .content-title{
 	font-size: 18px;
 	font-family: 'MuseoSans500', Helvetica, sans-serif !important;
+	line-height: 1.5em;
 }
 
 .hero-subtitle{

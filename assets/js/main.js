@@ -1,21 +1,27 @@
 jQuery(document).ready(function($){
+	// Page animation
+	$(".animated").appear(
 	
-	//ANIMATED ITEMS
-	$('.animated').appear(function() {
+
+	);
+	   $(".animated").on('appear',function() {
 	    var elem = $(this);
-	    var animation = elem.data('animation');
-	    if ( !elem.hasClass('visible') ) {
-	       	var animationDelay = elem.data('animation-delay');
-	        if ( animationDelay ) {
-	            setTimeout(function(){
-	                elem.addClass( animation + " visible" );
-	            }, animationDelay);
-	        } else {
-	            elem.addClass( animation + " visible" );
-	        }
-	    }
-	});
+	    console.log("appear");
+		        var animation = elem.data('animation');
+		        if ( !elem.hasClass('visible') ) {
+		        	var animationDelay = elem.data('animation-delay');
+		            if ( animationDelay ) {
 	
+		                setTimeout(function(){
+		                    elem.addClass( animation + " visible" );
+		                }, animationDelay);
+	
+		            } else {
+		                elem.addClass( animation + " visible" );
+		            }
+		}
+	   });
+
 	//Accordian Action
 	
 	$('li.ques').on('click', function(){
