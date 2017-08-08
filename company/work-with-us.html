@@ -1,0 +1,106 @@
+---
+layout: default
+title: Work with us
+excerpt: The quality of our technology and the positive impact it can have on our customers come down to one thing – our people. We're always interested in hearing from high calibre individuals who can add to our team. 
+permalink: /work-with-us/ 
+---
+
+<div class="form-banner text-center">
+    <div class="container-fluid">
+       <h1 class="main-title t-white">Working at Viostream</h1>
+       <h2 class="hero-subtitle-small t-white text-center">
+       The quality of our technology and the positive impact it can have on our customers come down to one thing – our people. We're always interested in hearing from high calibre individuals who can add to our team. 
+       </h2>
+    </div>
+</div>
+<div class="container page-content">
+	<div class="row section-p">
+		<div class="col-md-6">
+			<div class="left p-sm-r-50">
+				<h2 class="content-title">What can you expect?</h2>
+				<p>Right from the get go we are keen to know you and what makes you tick, and our selection process is designed with that aim in mind.  For those of you that are shortlisted for a role, we ask you to complete a profile called the Gallup Clifton StrengthsFinder. This facilitates a conversation with the hiring team about what your key strengths are and what motivates you.</p>
+				<p>Viostream plays to people's strengths. We have a strong talent focus and you will notice that our performance planning process and career discussions are about tapping into and developing your strengths.</p>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="right p-sm-l-50">
+				<h2 class="content-title">We are flexible like that</h2>
+				<p>Speaking of which, we have an employee policy guide that keeps you in the loop with all things related to flexible working hours, working from home, your leave, study leave, why and how to manage expenses.
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="row section-p">
+		<div class="col-md-6">
+			<div class="left p-sm-r-50">
+				<h2 class="content-title">Simple is profound</h2>
+				<p>Our culture encourages a keen focus on getting the basics right. This includes regular one on one conversations with your manager; team meetings, an invitation to our Monthly All Hands company meeting where we speak openly about our results, how we are tracking as a company, our challenges, achievements and opportunities. It is a relaxed forum designed for straight talk.</p>
+				
+				<p>Over the course of the year, we ensure there is ample focus on setting objectives and all the fun stuff that comes with that in relation to performance and career discussions.  Our remuneration review is conducted annually. We aim to pay market and are transparent about what we can and can't do.</p>
+				
+				<p>We hope that once you get to know and love us that you refer other talented individuals like yourself.  We have a spotter's fee lined up as a reward for talent you refer that is placed and contributes to our culture.</p>
+				
+				<p>The executive team conduct a talent review every quarter.  This means at any point in time we have a view of how people are contributing, what their aspirations are and where appropriate we look to support these ideals with training, mentoring, a job swap or project opportunity.  Something clever that works for us and for you.
+				</p>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="right p-sm-l-50">
+				<h2 class="content-title">Some other things worth knowing about are:</h2>
+				<ul>
+					<li><strong>Vio Pulse:</strong> A more formal way of checking in with our people to ensure we are on the right cultural path</li>
+					<li><strong>Vio Birthday Leave:</strong> An extra day off every year for the chance to celebrate you</li>
+					<li><strong>Community Leave:</strong> An opportunity to give back in a meaningful way</li>
+					<li><strong>Tertiary Study Assistance:</strong> Learning and professional growth is encouraged</li>
+					<li><strong>Employee Referral Program:</strong> Sharing expertise and most importantly knowing that our team members would recommend Viostream as a place to work is reward enough for us but means $ for you</li>
+					<li><strong>Deep Dive Day:</strong> Big picture, blue sky stuff never hurt anyone. It's a day for everyone to contribute to some serious off-piste exploration, as we think about the biggest challenges ahead and how we can innovate through them.</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="row section-p">
+		<div class="col-md-12">
+			<p><strong>The Viostream working culture is shaped and influenced by our guiding principles:</strong></p>
+			<h2 class="content-title">Accountability</h2>
+			<p>Be personally accountable, and transparent in progress. Communicate clearly and definitively. Commit and be convicted.</p>
+			
+			<h2 class="content-title">Curiosity</h2>
+			<p>Intellectual curiosity is important. Never take things at face value. Always ask “why”. Be thoughtful. Seek a deeper understanding. Solve problems with enthusiasm and rigour.</p>
+			
+			<h2 class="content-title">Passion</h2>
+			<p>Our ambition stems from providing the best business outcomes for our customers. Demand excellence from ourselves. Think and act with a sense of urgency.</p>
+			
+			<h2 class="content-title">Humility</h2>
+			<p>Business is a team sport – and no individual can be successful without the support of others. The whole must be greater than the sum of the parts. Celebrate others successes. Seek and be grateful for feedback. Learn and grow openly.</p>
+			
+			<h2 class="content-title">Courage</h2>
+			<p>Think big. Be resilient in the face of adversity. Make the right decision for the business, no matter how hard it is. Be comfortable with uncertainty. Trust others.</p>
+			
+			<p>These principles aren't just words on a page.  They are tangible and are in evidence each day. We enjoy working together, we don't hold back when something needs to be challenged or questioned, we care about what our team members think and we ask them regularly for their advice and input. We are super passionate about what we do and believe we have something to great to offer. Are you in?</p>
+		</div>
+	</div>
+	<div class="container">
+		<div class="col-md-12 text-center">
+			<h2 class="section-title">Current Job Listings</h2>
+			<p class="hero-subtitle-small p-t-50">Current vacancies may be listed here, but if you believe you have what it takes to make a positive difference to our team then send your CV to us at <a href="mailto:careers@viocorp.com">careers@viocorp.com</a></p>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row p-b-50">
+			<div class="col-md-10 offset-md-1">
+				<ul class="">
+				{% for post in site.categories.careers %} 
+				  <li>
+				  	<article>
+				  		<h2><a href="{{ post.url }}" class="nostyle-link">{{ post.title }}</a></h2>
+				  		{% if post.excerpt %} 
+				  			<p class="excerpt">{{ post.excerpt | remove: '\[ ... \]' | remove: '\( ... \)' | markdownify | strip_html | strip_newlines | escape_once }}</p>
+				  			{% endif %}
+				  	</article>
+				 </li>
+				{% endfor %}
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>

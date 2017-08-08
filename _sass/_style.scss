@@ -151,6 +151,14 @@ strong{
 	display: block;
 }
 
+.p-sm-l-50{
+	padding-left: 50px;
+}
+
+.p-sm-r-50{
+	padding-right: 50px;
+}
+
 .m-r-20{
 	margin-right: 20px;
 }
@@ -194,6 +202,10 @@ strong{
 
 .p-b-50{
 	padding-bottom: 50px;
+}
+
+.p-b-0{
+	padding-bottom: 0;
 }
 
 .p-t-100{
@@ -1179,6 +1191,13 @@ Primary style
 	.video-container {
 		position: relative;
 		padding-bottom: 56.25%;
+	}
+	.p-sm-l-50{
+		padding-left: 0px;
+	}
+	
+	.p-sm-r-50{
+		padding-right: 0px;
 	}
 }
 @media only screen and (max-width:1200px){
