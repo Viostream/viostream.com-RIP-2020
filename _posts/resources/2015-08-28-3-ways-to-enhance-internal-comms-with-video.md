@@ -1,0 +1,51 @@
+---
+layout: post
+title: 3 ways to enhance internal comms with video
+modified:
+categories: resources
+excerpt: "Employee engagement is a constant challenge for employers to manage. Here are three ways online video can help to capture their attention."
+tags: []
+image:
+thumbnail: "/assets/img/resources/3-ways-to-enhance-employee-engagement.jpg"
+feature:
+permalink: /3-ways-to-enhance-internal-comms-with-video
+date: 2015-08-28T23:06:50-04:00
+---
+
+It's an endless struggle for managers, how can they keep employees engaged in a time where attention spans are dropping and people spend more time looking at their mobile devices than anything else?
+
+Rather than trying to drag them away from <a href="/internal-communications/">a world of online video</a> and other distractions, why not fight fire with fire? After all, employees are clearly responding to video content made by other people, so there's an audience waiting for your videos.
+
+It will come as no surprise that clear and consistent communication is an important factor in employee engagement. According to a survey conducted by theEMPLOYEEapp, more than two-thirds (68 per cent) of respondents said that job satisfaction is affected by the amount of communication they receive. As such, here are three ways this communication can be enhanced with online video.
+
+<strong>1) Liven up emails with video content</strong>
+
+Communication channels need to be as varied as possible to ensure employees remain engaged. With video, these strategies can be mixed and matched, allowing the content to be <a href="/platform/">distributed on a number of platforms</a>.
+
+Email in particular is one of the most common internal communication options for businesses, and its frequency can swiftly overwhelm employees. The same survey from theEMPLOYEEapp discovered that just under a third (30 per cent) of people ignore internal emails, which can compromise engagement.
+
+Embedding a video into internal emails is a great way to make them stand out from the pack. On top of this, bite-sized videos can seem more digestible than if the same information was provided in text form.
+
+CEO of theCOMMSapp Jeff Corbin said there is also importance in the number of employees reading emails on mobile devices.
+
+"Employees are one of, if not the most important audiences of any company or organisation," he began. "The mobile device presents an immediate solution for employers to connect with and directly engage with this audience"
+
+<strong>2) Create a social workplace</strong>
+
+Online video's success through social media is a sign of its value to employees. It's a social medium that can encourage communication and engagement in a workplace.
+
+Video communication puts a face to the content, and is a great way of introducing employees to each other throughout a business. According to research from Globoforce, employee turnover and engagement are the two challenges HR managers are struggling with the most.
+
+By setting up video creation as a team exercise, employees are encouraged to get to know each and produce something that reflects and enhances workplace culture.
+
+This can extend to all levels of a workplace as well. CEOs and other executives could present important company updates through online video, creating a more personal expression to promote employee engagement.
+
+<strong>3) Engage with content anytime and anywhere</strong>
+
+In an age where bring-your-own-device (BYOD) programs are changing the way employees work and use technology, employers need a flexible communication channel that can keep up with these demands.
+
+With rising data allowances and 4G service becoming the standard for mobile connections, these devices are more than equipped to deliver video content to employees even if they are out of the office or working from home or after hours.
+
+Further research from theEMPLOYEEapp found that around 50 per cent of millennials use their personal smartphone for work purposes, creating a larger audience for video communication. Another 44 per cent of these people consider themselves "on-demand" workers, with mobile devices key to this flexible approach.
+
+This ties in with the first point about expanding the scope of emails with embedded videos. Employees no longer have to wait to come into the office to check their messages, as work phones allow them to do this whenever. Instead, they can catch up during their commute or after hours, allowing them to consume content at their leisure.
