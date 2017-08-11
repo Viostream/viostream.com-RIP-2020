@@ -2,11 +2,11 @@
 layout: post
 title: "What innovative CEO's need to learn from TEDxSydney"
 modified:
-categories: blog
+categories: resources
 excerpt: "To paraphrase Paul Coelho, If you think adventure is dangerous, try routine, it is lethal. For the modern CEO, it can sometimes feel like their job is an endless conveyer belt of challenges. "
 tags: []
 image:
-thumbnail: "/assets/img/blog/TEDxSydney-2017.jpg"
+thumbnail: "/assets/img/resources/TEDxSydney-2017.jpg"
 feature:
 permalink: /what-innovative-ceos-need-to-learn-from-tedxsydney
 date: 2017-06-22T08:08:50-04:00
@@ -17,7 +17,7 @@ To paraphrase Paul Coelho, "If you think adventure is dangerous, try routine, it
 
 Fortunately, there were plenty of ideas to spark a pattern interruption at the recent TEDxSydney event focussed on the theme of being "Unconventional”; provoking leaders to think of new approaches to conventional challenges. 
 
-<img src="/assets/img/blog/TEDxSydney-2017.jpg" alt="What innovative CEO's need to learn from TEDxSydney" />
+<img src="/assets/img/resources/TEDxSydney-2017.jpg" alt="What innovative CEO's need to learn from TEDxSydney" />
 
 From embracing imposter syndrome to recognising when you're facing an optimal stopping problem, here's what you can learn from TEDXSydney 2017 to make you top of your game:
 

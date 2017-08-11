@@ -2,11 +2,11 @@
 layout: post
 title: "TED broke the rules and so should you"
 modified:
-categories: blog
+categories: resources
 excerpt: "Even if you've never attended a TED talk, chances are you've been exposed to one in some form."
 tags: []
 image:
-thumbnail: "/assets/img/blog/TED-Ideas-worth-spreading.jpg"
+thumbnail: "/assets/img/resources/TED-Ideas-worth-spreading.jpg"
 feature:
 permalink: /ted-broke-the-rules-and-so-should-you
 date: 2017-06-20T15:39:55-04:00
@@ -20,7 +20,7 @@ What started off as a small, one-off, invitation-only event in 1984 is now an un
 
 It's an immediately recognisable concern for anyone in marketing or communications. When you're constantly told to control the message, it's easy to distrust the longevity or the value of audiences built up around the web on channels you don't own or manage. Audience fragmentation seems like a clear threat to a brand's ability to clearly express its value proposition via a few chosen platforms, and there's a widely held assumption that trying to be everywhere at once is a waste of time. 
 
-<img src="/assets/img/blog/TED-Ideas-worth-spreading.jpg" alt="TED broke the rules and so should you" />
+<img src="/assets/img/resources/TED-Ideas-worth-spreading.jpg" alt="TED broke the rules and so should you" />
 
 <h3>Tearing up the rulebook</h3>
 TED tells a different story. By September 2006, the online videos had generated more than one million views. A couple of years later, they launched a simulcast version of the TED conference, allowing more people to attend for a lower price. And by 2009, it had reached 100 million video views and was well on the way to building a global audience that would allow TED Talks to extend to local, individually-hosted TEDx events all over the world. Today, most people interact with the TED brand by watching a video or a podcast before they ever attend an event. 

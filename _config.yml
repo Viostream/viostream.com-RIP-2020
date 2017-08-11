@@ -34,9 +34,9 @@ plugins:
 # Pagination Settings
 pagination:
   enabled: true
-  per_page: 6
-  permalink: '/blog/:num/'
-  title: ' - page :num'
+  per_page: 12
+  permalink: '/resources/:num/'
+  title: ' - resources :num'
   limit: 0
   sort_field: 'date'
   sort_reverse: true

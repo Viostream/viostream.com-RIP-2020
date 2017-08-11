@@ -2,11 +2,11 @@
 layout: post
 title: "What are the alternatives to hosting video on YouTube?"
 modified:
-categories: blog
+categories: resources
 excerpt:
 tags: []
 image:
-thumbnail: "/assets/img/blog/VideoInsigts-DigitalVideoFuture.jpg"
+thumbnail: "/assets/img/resources/VideoInsigts-DigitalVideoFuture.jpg"
 feature:
 permalink: /what-are-the-alternatives-to-hosting-video-on-youtube
 date: 2017-04-19T12:01:55-04:00

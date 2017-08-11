@@ -2,11 +2,11 @@
 layout: post
 title: "Web conferencing or video streaming?"
 modified:
-categories: blog
+categories: resources
 excerpt: "Web conferencing and video streaming. Two terms that seem to represent the same kind of thing"
 tags: []
 image:
-thumbnail: "/assets/img/blog/VideoInsigts_3-ways-to-enhance-employee-engagement-.jpg"
+thumbnail: "/assets/img/resources/VideoInsigts_3-ways-to-enhance-employee-engagement-.jpg"
 feature:
 permalink: what-is-the-difference-between-web-conferencing-and-video-streaming
 date: 2017-03-30T08:05:55-04:00
