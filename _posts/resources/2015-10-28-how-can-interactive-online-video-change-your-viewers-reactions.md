@@ -2,7 +2,7 @@
 layout: post
 title: How can interactive video change your viewers reaction?
 modified:
-categories: resources
+categories: resources, blog
 excerpt: "Online video no longer has to be a passive experience for users. Here's how interactive features can transform this method of communication."
 tags: []
 image:

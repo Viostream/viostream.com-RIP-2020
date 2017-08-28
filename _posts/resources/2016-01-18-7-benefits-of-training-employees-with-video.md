@@ -2,7 +2,7 @@
 layout: post
 title: 7 benefits of training employees with video
 modified:
-categories: resources
+categories: resources, blog
 excerpt: "Optus share their 7 top benefits of delivering training via online video. Advancing technology on multiple devices available makes video the perfect choice! "
 tags: []
 image:

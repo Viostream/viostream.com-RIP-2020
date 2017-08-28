@@ -2,7 +2,7 @@
 layout: post
 title: How to create an effective online video tutorial
 modified:
-categories: resources
+categories: resources, blog
 excerpt: "Viewers love online video tutorials, and the 'how-to' craze shows no sign of slowing down. Here's how to make your version stand out from the crowd."
 tags: []
 image:

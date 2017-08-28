@@ -2,7 +2,7 @@
 layout: post
 title: "What your internal presentations can borrow from TED Talks"
 modified:
-categories: resources
+categories: resources, blog
 excerpt:
 tags: []
 image:

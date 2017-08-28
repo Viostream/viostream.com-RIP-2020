@@ -2,7 +2,7 @@
 layout: post
 title: Video forecast to dominate 72% of mobile traffic
 modified:
-categories: resources
+categories: resources, blog
 excerpt: "The popularity of mobile data is growing fast. According to Cisco's Global Mobile Data Traffic Forecast Update: 2014–2019 , by the year 2019 72% of mobile traffic will be video content. Discover more the latest trends in mobile video here. "
 tags: []
 image:

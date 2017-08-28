@@ -2,7 +2,7 @@
 layout: post
 title: 3 internal video uses to consider in 2017
 modified:
-categories: resources
+categories: resources, blog
 excerpt: "If your business is looking engage your team in a smarter, innovative and interactive way in 2017, video content is a simple solution."
 tags: []
 image:

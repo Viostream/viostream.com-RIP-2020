@@ -2,7 +2,7 @@
 layout: post
 title: The next generation of worker will be video-learning focused
 modified:
-categories: resources
+categories: resources, blog
 excerpt: "Millennials and Generation Z are now both an active part of the workforce. Are there ways to connect with these new workers in more meaningful ways?"
 tags: []
 image:

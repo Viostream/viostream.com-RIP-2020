@@ -2,7 +2,7 @@
 layout: post
 title: What are the steps to video marketing success?
 modified:
-categories: resources
+categories: resources, blog
 excerpt: "Online video marketing is providing businesses with new freedom when it comes to promoting their content. What do you need to know?"
 tags: []
 image:

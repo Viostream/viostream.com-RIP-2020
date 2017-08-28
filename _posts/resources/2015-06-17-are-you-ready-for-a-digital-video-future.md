@@ -2,7 +2,7 @@
 layout: post
 title: How do you know if your video is effective?
 modified:
-categories: resources
+categories: resources, blog
 excerpt: "Video lets you convey a whole range of information, emotions and experiences that simply aren't possible with still images or text. Are you ready to make the change?"
 tags: []
 image:

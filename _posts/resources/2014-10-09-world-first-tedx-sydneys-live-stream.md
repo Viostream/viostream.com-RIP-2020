@@ -2,7 +2,7 @@
 layout: post
 title: TEDx Sydney's live stream a world-first
 modified:
-categories: resources
+categories: resources, blog
 excerpt: "Known for pushing the boundaries, discover how TEDxSydney is breaking new ground and reaching new audiences with our live streaming technology."
 tags: []
 image:

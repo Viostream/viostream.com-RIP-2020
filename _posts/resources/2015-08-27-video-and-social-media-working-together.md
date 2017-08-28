@@ -2,7 +2,7 @@
 layout: post
 title: Video and social media working in harmony
 modified:
-categories: resources
+categories: resources, blog
 excerpt: "Facebook and other social media channels are fast becoming a viable network for distributing online video content, how can Viostream help you to leverage this interest? "
 tags: []
 image:

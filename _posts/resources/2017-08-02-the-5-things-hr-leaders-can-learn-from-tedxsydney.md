@@ -2,7 +2,7 @@
 layout: post
 title: The 5 Things HR Leaders Can Learn From TEDXSydney
 modified:
-categories: resources
+categories: resources, blog
 excerpt: This year, TEDXSydney took community to a whole new level with the introduction of Tribes, which were created when attendees chose from a set of stickers representing different aspects of themselves (like Newbie, Veteran, Single & Open to Romance etc) on their badges.
 tags: []
 image:

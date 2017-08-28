@@ -2,7 +2,7 @@
 layout: post
 title: Live streaming for public services - Andrew Parsons, Fire & Rescue NSW
 modified:
-categories: resources
+categories: resources, videos
 excerpt: "Steve Jones, Viocorp, sits fire side with Andrew Parsons of Fire & Rescue to find out the exciting ways they are using live stream technology and how it's transferable across all business models. "
 tags: []
 image:

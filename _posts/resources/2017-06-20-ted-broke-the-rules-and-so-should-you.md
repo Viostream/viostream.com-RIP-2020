@@ -2,7 +2,7 @@
 layout: post
 title: "TED broke the rules and so should you"
 modified:
-categories: resources
+categories: resources, videos
 excerpt: "Even if you've never attended a TED talk, chances are you've been exposed to one in some form."
 tags: []
 image:

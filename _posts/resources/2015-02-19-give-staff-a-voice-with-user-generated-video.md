@@ -2,7 +2,7 @@
 layout: post
 title: Give your people a voice with user-generated video
 modified:
-categories: resources
+categories: resources, blog
 excerpt: "How can video help you improve the richness and impact of your internal communications messages? James Robertson of Step Two Designs, shares his thoughts and explains how to give staff a voice with user generated video."
 tags: []
 image:

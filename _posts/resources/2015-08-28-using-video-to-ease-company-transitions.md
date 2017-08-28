@@ -2,7 +2,7 @@
 layout: post
 title: Using video to ease company transitions
 modified:
-categories: resources
+categories: resources, blog
 excerpt: "If your organisation is going through a complicated transition period, it might be time to make the case for online video. Chis Kennett of Optus explains the reasons why. "
 tags: []
 image:

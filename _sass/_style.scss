@@ -455,7 +455,7 @@ a:hover img{
     bottom: 0%;
     left: 50%;
     margin-left: -20px;
-    border-bottom: 2px solid #2492ff;
+    border-bottom: 2px solid $primary-color;
 }
 
 .content-title{
@@ -932,20 +932,6 @@ ol.carousel-indicators li.active img{
 	border: 2px solid #006DB6;   
 }
 
-#clients-testimonial{
-	margin-bottom: 70px;
-	background-color: $primary-color;
-}
-
-.testimonial-content{
-	color: $white;
-	padding: 8% 6%;
-}
-
-.testimonial-logo img{
-	margin-top: 10px !important;
-	border: 0 !important;
-}
 /* @end */
 
 /* @group Footer */
@@ -1199,6 +1185,9 @@ Primary style
 	.p-sm-r-50{
 		padding-right: 0px;
 	}
+	.testimonial-content{
+		padding: 10% !important;
+	}
 }
 @media only screen and (max-width:1200px){
 	.section-p{
@@ -1378,14 +1367,25 @@ display:none;
     background: transparent url(../img/testimonial-arrow.png) no-repeat 9% bottom;
 }
 
-.testimonial .testimonial-content {
-    font-family: MuseoSlab300;
-    border-radius: 10px;
-    padding: 40px 90px;
-    font-size: 25px;
-    font-style: italic;
-    line-height: 40px;
-    background-color: #2492ff;
+
+#clients-testimonial{
+	margin-bottom: 70px;
+	background-color: $primary-color;
+}
+
+.testimonial-content{
+	font-family: MuseoSlab300;
+	padding: 60px 90px;
+	font-size: 18px;
+	line-height: 27px;
+	background-color: $primary-color;
+	vertical-align: middle;
+	color: $white;
+}
+
+.testimonial-logo img{
+	margin-top: 10px !important;
+	border: 0 !important;
 }
 
 .testimonial-author {
@@ -1417,13 +1417,6 @@ display:none;
 }
 
 /* @end */
-
-
-
-
-
-
-
 
 
 @media screen and (max-width: 1280px) and (min-width: 300px) { 
@@ -1902,7 +1895,7 @@ Main components
 }
 .cd-primary-nav .see-all a {
   /* different style for the See all button on mobile and tablet */
-  color: #2492FF;
+  color: $primary-color;
 }
 .cd-primary-nav .cd-nav-gallery .cd-nav-item, .cd-primary-nav .cd-nav-icons .cd-nav-item {
   /* items with picture (or icon) and title */
@@ -2056,11 +2049,11 @@ Main components
     transition: color 0.3s, box-shadow 0.3s;
   }
   .cd-primary-nav > li > a:hover {
-    color: #2492FF;
+    color: $primary-color;
   }
   .cd-primary-nav > li > a.selected {
-    color: #2492FF;
-    box-shadow: inset 0 -2px 0 #2492FF;
+    color: $primary-color;
+    box-shadow: inset 0 -2px 0 $primary-color;
   }
   .cd-primary-nav .go-back, .cd-primary-nav .see-all {
     display: none;
@@ -2183,7 +2176,7 @@ Main components
     font-size: 0.875em;
   }
   .cd-primary-nav .cd-secondary-nav a:hover {
-    color: #2492FF;
+    color: $primary-color;
   }
   .cd-primary-nav .cd-secondary-nav ul {
     /* Force Hardware Acceleration in WebKit */
@@ -2251,7 +2244,7 @@ Main components
     margin-bottom: .6em;
   }
   .cd-primary-nav .cd-nav-gallery .cd-nav-item h3 {
-    color: #2492FF;
+    color: $primary-color;
     padding: 0 .4em;
   }
   .cd-primary-nav .cd-nav-icons li {
@@ -2275,7 +2268,7 @@ Main components
     background: #f6f6f5;
   }
   .cd-primary-nav .cd-nav-icons .cd-nav-item h3 {
-    color: #2492FF;
+    color: $primary-color;
   }
   .cd-primary-nav .cd-nav-icons .cd-nav-item p {
     display: block;
@@ -2323,7 +2316,7 @@ Main components
     display: none;
   }
   .has-children > a:hover::before, .has-children > a:hover::after, .go-back a:hover::before, .go-back a:hover::after {
-    background: #2492FF;
+    background: $primary-color;
   }
   .cd-primary-nav .cd-secondary-nav >li > a.has-child{
   	text-transform: uppercase;

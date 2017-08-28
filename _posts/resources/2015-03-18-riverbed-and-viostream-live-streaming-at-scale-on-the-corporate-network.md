@@ -2,7 +2,7 @@
 layout: post
 title: Riverbed and Viostream - Live streaming at scale on the corporate network
 modified:
-categories: resources
+categories: resources, tech-talk
 excerpt: "Riverbed help us understand how your existing WAN optimising infrastructure can be used to deliver high quality internal video streaming without choking the network"
 tags: []
 image:

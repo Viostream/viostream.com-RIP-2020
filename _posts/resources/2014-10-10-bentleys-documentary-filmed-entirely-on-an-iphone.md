@@ -2,7 +2,7 @@
 layout: post
 title: Bentley's new commercial filmed on an iPhone
 modified:
-categories: resources
+categories: resources, blog
 excerpt: "Watch Bentley Motors’ new video to discover how your own mobile device can produce quality video content. Shot entirely on an iPhone, the video was edited on an iPad Air."
 tags: []
 image:

@@ -2,7 +2,7 @@
 layout: post
 title: 6 ways to gain a competitive edge with video
 modified:
-categories: resources
+categories: resources, blog
 excerpt: "Targeted video is proving to be the most effective way to reach more people, engage the audience and convert buyers. Let’s have a look at the six smart ways marketers are using video to create a competitive advantage in 2015."
 tags: []
 image:

@@ -2,7 +2,7 @@
 layout: post
 title: How can video support improvements in the sales department?
 modified:
-categories: resources
+categories: resources, blog
 excerpt: "Sales representatives are a vital cog for any business. Read on to find out how video can make their daily tasks easier."
 tags: []
 image:

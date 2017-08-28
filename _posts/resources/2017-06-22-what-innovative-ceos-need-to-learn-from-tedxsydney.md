@@ -2,7 +2,7 @@
 layout: post
 title: "What innovative CEO's need to learn from TEDxSydney"
 modified:
-categories: resources
+categories: resources, blog
 excerpt: "To paraphrase Paul Coelho, If you think adventure is dangerous, try routine, it is lethal. For the modern CEO, it can sometimes feel like their job is an endless conveyer belt of challenges. "
 tags: []
 image:

@@ -2,7 +2,7 @@
 layout: post
 title: How video can drive success of email
 modified:
-categories: resources
+categories: resources, blog
 excerpt: "Click-through rates Increase 2-3 times when marketers include a video in an email. Great stats hey, find out more about adding video to email comms"
 tags: []
 image:

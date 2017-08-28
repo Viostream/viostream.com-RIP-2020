@@ -2,7 +2,7 @@
 layout: post
 title: What makes a good marketing video
 modified:
-categories: resources
+categories: resources, blog
 excerpt: "Video marketing that meets your specific needs is a direct way provide relevant information to your viewers. Learn how Viostream can help you connect."
 tags: []
 image:

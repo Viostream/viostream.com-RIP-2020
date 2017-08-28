@@ -2,7 +2,7 @@
 layout: post
 title: Shoppable live video with Isobar and David Jones
 modified:
-categories: resources
+categories: resources, customer-stories
 excerpt: "Discover how Iconic Australian brand David Jones used Viocorp's experienced team and technology to reach 1000's more people and increase sales at the same time."
 tags: []
 image:

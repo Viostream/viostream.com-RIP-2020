@@ -2,7 +2,7 @@
 layout: post
 title: "What are the alternatives to hosting video on YouTube?"
 modified:
-categories: resources
+categories: resources, blog, guides, tech-talk
 excerpt:
 tags: []
 image:

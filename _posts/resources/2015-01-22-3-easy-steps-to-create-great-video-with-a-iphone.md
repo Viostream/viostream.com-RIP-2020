@@ -2,7 +2,7 @@
 layout: post
 title: How to film business videos with an iPhone
 modified:
-categories: resources
+categories: resources, blog, guides
 excerpt: "Watch this video and discover all the top tips and tricks to filming professional quality video content on your iPhone.  It really is that easy to do it yourself!  "
 tags: []
 image:

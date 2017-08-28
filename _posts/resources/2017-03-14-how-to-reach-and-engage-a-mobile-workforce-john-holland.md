@@ -1,8 +1,8 @@
 ---
 layout: post
-title: How John Holland uses video for internal communications
+title: ,  uses video for internal communications
 modified:
-categories: resources
+categories: resources, videos, customer-stories
 excerpt: When most of your workforce are involved in over 100 projects across every state and territory, delivering effective internal communication solutions is a balancing act between business requirements and technical delivery.
 tags: []
 image:

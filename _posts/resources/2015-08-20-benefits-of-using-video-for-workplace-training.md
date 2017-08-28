@@ -2,7 +2,7 @@
 layout: post
 title: Benefits of using video for workplace training
 modified:
-categories: resources
+categories: resources, blog
 excerpt: "Video content can open up a number of possibilities throughout businesses. Here are three things to keep in mind when using it to train staff. "
 tags: []
 image:

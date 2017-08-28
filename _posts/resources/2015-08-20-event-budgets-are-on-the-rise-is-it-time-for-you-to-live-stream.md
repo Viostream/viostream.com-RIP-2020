@@ -2,7 +2,7 @@
 layout: post
 title: The rise of live streaming for corporate events
 modified:
-categories: resources
+categories: resources, blog
 excerpt: "The world is getting smaller and the way we host and plan our events is changing, businesses need to manage global as well as local interest."
 tags: []
 image:

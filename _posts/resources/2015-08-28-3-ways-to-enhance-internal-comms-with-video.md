@@ -2,7 +2,7 @@
 layout: post
 title: 3 ways to enhance internal comms with video
 modified:
-categories: resources
+categories: resources, blog
 excerpt: "Employee engagement is a constant challenge for employers to manage. Here are three ways online video can help to capture their attention."
 tags: []
 image:

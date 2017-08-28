@@ -2,7 +2,7 @@
 layout: post
 title: The customer journey and the role of video
 modified:
-categories: resources
+categories: resources, blog
 excerpt: "According to Google, the customer journey is comprised of many small steps, and video can pave the path."
 tags: []
 image:

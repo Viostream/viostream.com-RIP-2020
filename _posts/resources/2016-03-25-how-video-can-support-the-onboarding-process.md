@@ -2,7 +2,7 @@
 layout: post
 title: How video can support the onboarding process
 modified:
-categories: resources
+categories: resources, blog
 excerpt: "It is fair to say that recruitment is a constant battle for business leaders. As soon as one person departs, the whole process starts again, culminating in a new employee progressing through onboarding."
 tags: []
 image:

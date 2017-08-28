@@ -2,7 +2,7 @@
 layout: post
 title: How to turn video viewers into customers
 modified:
-categories: resources
+categories: resources, blog
 excerpt: "Take advantage of the increased engagement video generates. We give you 5 pretty good reasons why you would be crazy not to use clickable CTA in your videos. "
 tags: []
 image:

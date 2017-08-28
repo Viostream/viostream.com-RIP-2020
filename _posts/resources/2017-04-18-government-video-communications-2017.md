@@ -2,13 +2,13 @@
 layout: post
 title: "Government Video Communications 2017"
 modified:
-categories: resources
+categories: resources, blog
 excerpt: "Even if you've never attended a TED talk, chances are you've been exposed to one in some form."
 tags: []
 image:
 thumbnail: "/assets/img/resources/Government-Video-Communications-2017.jpg"
 feature:
-permalink: /ted-broke-the-rules-and-so-should-you
+permalink: /government-video-communications-2017
 date: 2017-04-18T15:39:55-04:00
 ---
 

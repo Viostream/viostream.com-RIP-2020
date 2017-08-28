@@ -2,7 +2,7 @@
 layout: post
 title: Government Video Communications 2015
 modified:
-categories: resources
+categories: resources, videos
 excerpt: "Case study examples delivered by Government agencies, offering actionable ideas and insights from your peers on their experiences of digital transformation and communication."
 tags: []
 image:

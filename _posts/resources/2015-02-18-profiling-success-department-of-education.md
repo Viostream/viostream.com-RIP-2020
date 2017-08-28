@@ -2,7 +2,7 @@
 layout: post
 title: Government live streaming - Department of Education
 modified:
-categories: resources
+categories: resources, customer-stories
 excerpt: "One of the most important roles of the Department of Education is to communicate its messages and engage with the wider community, find out how they did this with Viostream"
 tags: []
 image:

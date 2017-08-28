@@ -2,7 +2,7 @@
 layout: post
 title: Using video for corporate culture development
 modified:
-categories: resources
+categories: resources, blog
 excerpt: "If you were to ask any business leader what the best part of their organisation was, you'd get a multitude of responses."
 tags: []
 image:

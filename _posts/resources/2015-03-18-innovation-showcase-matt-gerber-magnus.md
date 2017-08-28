@@ -2,7 +2,7 @@
 layout: post
 title: Video for Corporate Communications - Matt Gerber, MAGNUS
 modified:
-categories: resources
+categories: resources, videos
 excerpt: "MAGNUS, leaders in corporate brand and reputation take a seat by the fire and talk us through their experiences with video, lets see what we can learn"
 tags: []
 image:

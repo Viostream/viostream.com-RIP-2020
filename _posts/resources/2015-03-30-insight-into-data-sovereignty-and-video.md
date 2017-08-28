@@ -2,7 +2,7 @@
 layout: post
 title: Why is data sovereignty important for video?
 modified:
-categories: resources
+categories: resources, tech-talk
 excerpt: "With the proliferation of cloud technology, data storage and data sovereignty are becoming increasingly hot topics. So we thought we would break it down and help you "
 tags: []
 image:

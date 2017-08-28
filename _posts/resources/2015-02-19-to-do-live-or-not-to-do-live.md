@@ -2,7 +2,7 @@
 layout: post
 title: When is live streaming the right option?
 modified:
-categories: resources
+categories: resources, blog
 excerpt: "Webcasting and live streaming are two of the most powerful tools in a communications professional’s arsenal. However one of the biggest questions around video content is whether or not to go live or stick to on-demand."
 tags: []
 image:

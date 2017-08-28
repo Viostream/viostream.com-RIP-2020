@@ -2,7 +2,7 @@
 layout: post
 title: Why video is now the most effective communication medium
 modified:
-categories: resources
+categories: resources, blog
 excerpt: "Digital communications isn't just tweets, emails and blog posts, the truth is that the future of digital communications is much more than just text, it's online video."
 tags: []
 image:

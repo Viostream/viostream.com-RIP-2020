@@ -2,7 +2,7 @@
 layout: post
 title: 6 Ways to create great, low cost video content
 modified:
-categories: resources
+categories: resources, blog
 excerpt: Creating compelling video content is often perceived as one of most difficult and expensive parts of a video content strategy. But in reality it’s not as hard as you may think.
 tags: []
 image:

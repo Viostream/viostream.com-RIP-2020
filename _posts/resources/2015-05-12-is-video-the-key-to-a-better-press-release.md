@@ -2,7 +2,7 @@
 layout: post
 title: Is video the key to a better press release?
 modified:
-categories: resources
+categories: resources, blog
 excerpt: "Press releases can have a pretty poor reputation when it comes to spreading a corporate message among potential leads. The click-through rates for these releases are generally in the fractions of a percentage "
 tags: []
 image:

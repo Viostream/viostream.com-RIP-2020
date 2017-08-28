@@ -2,7 +2,7 @@
 layout: post
 title: "Web conferencing or video streaming?"
 modified:
-categories: resources
+categories: resources, tech-talk
 excerpt: "Web conferencing and video streaming. Two terms that seem to represent the same kind of thing"
 tags: []
 image:

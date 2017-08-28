@@ -2,7 +2,7 @@
 layout: post
 title: Video in Professional Services - Steve White, King & Wood Mallesons
 modified:
-categories: resources
+categories: resources, blog, customer-stories
 excerpt: "We have a fire side chat with Steve White, Head of Marketing Comms at King & Wood Mallesons. He gives us the lowdown on how he introduced video to this traditional law firm"
 tags: []
 image:

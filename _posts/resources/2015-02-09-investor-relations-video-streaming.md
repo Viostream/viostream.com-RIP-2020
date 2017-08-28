@@ -2,7 +2,7 @@
 layout: post
 title: Investor relations video streaming - QBE Insurance
 modified:
-categories: resources
+categories: resources, customer-stories
 excerpt: "QBE have had phenomenal success using online video to deliver all their investor relations announcements, find out how they have worked in partnership with Viocorp to achieve this."
 tags: []
 image:

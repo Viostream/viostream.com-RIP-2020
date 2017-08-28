@@ -2,7 +2,7 @@
 layout: post
 title: How BUPA uses video for internal communications
 modified:
-categories: resources
+categories: resources, videos, customer-stories
 excerpt: With a geographically dispersed workforce of 18,500 employees across Australia &amp; New Zealand, Lizzy Geremia leads the internal communications function at BUPA.
 tags: []
 image:

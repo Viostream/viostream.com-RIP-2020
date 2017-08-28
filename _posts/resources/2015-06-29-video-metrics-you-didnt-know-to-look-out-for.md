@@ -2,7 +2,7 @@
 layout: post
 title: Measuring success of video content
 modified:
-categories: resources
+categories: resources, blog
 excerpt: "It's easy to get excited when you first start launching your video content but there are a few metrics you need to focus on. It's not just views count you need to consider."
 tags: []
 image:

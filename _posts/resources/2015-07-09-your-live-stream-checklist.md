@@ -2,7 +2,7 @@
 layout: post
 title: Live stream checklist
 modified:
-categories: resources
+categories: resources, blog
 excerpt: "From a product launch to a conference how do you know when it's time to live stream your next event? Here's a checklist of the questions to ask that can help you make this decision"
 tags: []
 image:
