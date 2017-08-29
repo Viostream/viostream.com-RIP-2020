@@ -1,26 +1,25 @@
 jQuery(document).ready(function($){
 	// Page animation
 	$(".animated").appear(
-	
-
 	);
-	   $(".animated").on('appear',function() {
-	    var elem = $(this);
-	    console.log("appear");
-		        var animation = elem.data('animation');
-		        if ( !elem.hasClass('visible') ) {
-		        	var animationDelay = elem.data('animation-delay');
-		            if ( animationDelay ) {
 	
-		                setTimeout(function(){
-		                    elem.addClass( animation + " visible" );
-		                }, animationDelay);
-	
-		            } else {
-		                elem.addClass( animation + " visible" );
-		            }
-		}
-	   });
+   $(".animated").on('appear',function() {
+    var elem = $(this);
+    console.log("appear");
+	        var animation = elem.data('animation');
+	        if ( !elem.hasClass('visible') ) {
+	        	var animationDelay = elem.data('animation-delay');
+	            if ( animationDelay ) {
+
+	                setTimeout(function(){
+	                    elem.addClass( animation + " visible" );
+	                }, animationDelay);
+
+	            } else {
+	                elem.addClass( animation + " visible" );
+	            }
+	}
+   });
 
 	//Accordian Action
 	
@@ -67,6 +66,21 @@ jQuery(document).ready(function($){
 		  }
 		}
 	});
+	
+	$('.img-gallery').magnificPopup({
+			delegate: 'a',
+			type: 'image',
+			tLoading: 'Loading image #%curr%...',
+			mainClass: 'mfp-img-mobile',
+			gallery: {
+				enabled: true,
+				navigateByImgClick: true,
+				preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+			},
+			image: {
+				tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+			}
+		});
 	
 
 	$(".tour").on('click', function(event){
