@@ -23,7 +23,9 @@ $grey-color				  : #b2b2b2;
 $light-grey				  : #D8D8D8;	
 $accent-color             : $black;
 $link-color               : $primary-color;
+$orange-color			  : #FF6549;
 
+	
 @include fontFace('MuseoSans100','../fonts/MuseoSans_100Web');
 @include fontFace('MuseoSans300','../fonts/MuseoSans_300Web');
 @include fontFace('MuseoSans500','../fonts/MuseoSans_500Web');

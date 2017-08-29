@@ -20,6 +20,23 @@ jQuery(document).ready(function($){
 	            }
 	}
    });
+   
+   //Pricing
+   $(".calculate").change(function() {
+       $(".calculate option:selected").each(function() {
+       	   vodPrice = 	$(this).data('vod');
+           vodPriceMonthly = $(this).data('vod');
+           vodPriceMonthly *= $(this).data('price');
+           vodLivePrice = 	$(this).data('vodlive');
+           vodLivePriceMonthly = $(this).data('vodlive');
+           vodLivePriceMonthly *= $(this).data('price');
+           console.log(vodLivePrice);
+       });
+       $(".item-price-vod").html(vodPrice.toFixed(2));
+       $(".item-price-vod-monthly").html(vodPriceMonthly.toFixed(0));
+       $(".item-price-vod-live").html(vodLivePrice.toFixed(2));
+       $(".item-price-vod-live-monthly").html(vodLivePriceMonthly.toFixed(0));
+   });
 
 	//Accordian Action
 	
