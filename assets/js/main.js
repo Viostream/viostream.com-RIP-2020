@@ -45,17 +45,10 @@ jQuery(document).ready(function($){
 	  
 	  //opens .a of selected question
 	$(this).next().slideToggle(500)
-	    //selects all other answers and slides up any open answer
 	    .siblings('li.ans').slideUp();
 	$(this).siblings('li').removeClass('active');
 	$(this).toggleClass('active');    
 	  
-//	  //Grab img from clicked question
-//	var img = $(this).children('img');
-//	  //Remove Rotate class from all images except the active
-//	  $('img').not(img).removeClass('rotate');
-//	  //toggle rotate class
-//	  img.toggleClass('rotate');
 	
 	});//End on click
 	
@@ -340,8 +333,9 @@ jQuery(document).ready(function($){
 jQuery(document).ready(function($){
 	// Change padding depending on the screen width and height
 	updateHHPadding();
+	anchorHeight();
 	$(window).resize(updateHHPadding);
-	
+	$(window).resize(anchorHeight);
 	function updateHHPadding() {
 		var hhHeight = $('.home-hero').height();
 		var clHeight = $('.client-logos').height();
@@ -356,6 +350,13 @@ jQuery(document).ready(function($){
 	}
 	
 	
+	function anchorHeight() {
+		var imgHeight = $('.download-pdf img').height();
+		$('.download-pdf').css({
+			'height': (imgHeight)+'px'
+		});
+		console.log(imgHeight);
+	}
 	    
 
 	function triggerFilter($bool) {

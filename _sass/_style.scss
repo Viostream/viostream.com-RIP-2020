@@ -585,6 +585,22 @@ a.nostyle-link:link, a.nostyle-link:visited{
 	background: url('../img/download-guide.jpg') no-repeat 50% 10% $white !important;
 }
 
+.download-pdf:hover img{
+	display: none;
+}
+
+.download-pdf{
+	content: '';
+	display: block;
+	background: #ff6549 url(../img/download-pdf-hover.png) no-repeat 50% 50% !important; 
+	top: 0;
+	left: 0;
+	width: 100%;
+	max-width: 600px;
+	margin: auto;
+}
+
+
 .resources-links{
 	width: 100%;
 	padding: 2% 5% 0 5%;
@@ -2056,7 +2072,7 @@ Main components
 @media only screen and (min-width: 1170px) {
   .cd-primary-nav {
     position: static;
-    padding: 0 20px 0 0;
+    padding: 0 80px 0 0;
     margin: 0;
     height: auto;
     width: auto;
