@@ -8,7 +8,7 @@ tags: []
 image:
 thumbnail: "/assets/img/resources/HR-Leaders.jpg"
 feature:
-permalink: /the-5-things-hr-leaders-can-learn-from-tedxsydney
+permalink: /the-5-things-hr-leaders-can-learn-from-tedxsydney/
 date: 2017-08-02T08:10:42-04:00
 ---
 

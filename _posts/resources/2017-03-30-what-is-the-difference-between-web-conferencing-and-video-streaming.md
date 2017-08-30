@@ -8,7 +8,7 @@ tags: []
 image:
 thumbnail: "/assets/img/resources/VideoInsigts_3-ways-to-enhance-employee-engagement-.jpg"
 feature:
-permalink: what-is-the-difference-between-web-conferencing-and-video-streaming
+permalink: what-is-the-difference-between-web-conferencing-and-video-streaming/
 date: 2017-03-30T08:05:55-04:00
 ---
 

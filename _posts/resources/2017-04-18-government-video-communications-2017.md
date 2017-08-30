@@ -8,7 +8,7 @@ tags: []
 image:
 thumbnail: "/assets/img/resources/Government-Video-Communications-2017.jpg"
 feature:
-permalink: /government-video-communications-2017
+permalink: /government-video-communications-2017/
 date: 2017-04-18T15:39:55-04:00
 ---
 

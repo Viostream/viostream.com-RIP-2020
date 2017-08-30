@@ -8,7 +8,7 @@ tags: []
 image:
 thumbnail: "/assets/img/resources/Bentley-Motors.jpg"
 feature:
-permalink: /bentleys-documentary-filmed-entirely-on-an-iphone
+permalink: /bentleys-documentary-filmed-entirely-on-an-iphone/
 date: 2014-10-10T08:02:59-04:00
 ---
 

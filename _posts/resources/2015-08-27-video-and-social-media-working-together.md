@@ -8,7 +8,7 @@ tags: []
 image:
 thumbnail: "/assets/img/resources/video-insights-how-does-video-marketing-fit-with-your-social-media-campaign.jpg"
 feature:
-permalink: /video-and-social-media-working-together
+permalink: /video-and-social-media-working-together/
 date: 2015-08-27T10:08:50-04:00
 ---
 

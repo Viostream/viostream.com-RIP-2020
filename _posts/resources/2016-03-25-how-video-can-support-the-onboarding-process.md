@@ -8,7 +8,7 @@ tags: []
 image:
 thumbnail: "/assets/img/resources/how-can-video-support-the-corporate-onboarding-process.jpg"
 feature:
-permalink: /how-video-can-support-the-onboarding-process
+permalink: /how-video-can-support-the-onboarding-process/
 date: 2016-03-25T19:03:50-04:00
 ---
 <input id="br-article-id" name="br-article-id" type="hidden" value="6033638" />

@@ -8,7 +8,7 @@ tags: []
 image:
 thumbnail: "/assets/img/resources/VideoInsigts_QBE-Video.jpg"
 feature:
-permalink: /investor-relations-video-streaming
+permalink: /investor-relations-video-streaming/
 date: 2015-02-09T14:54:50-04:00
 ---
 

@@ -8,7 +8,7 @@ tags: []
 image:
 thumbnail: "/assets/img/resources/VideoInsigts_How-to-use-video-content-for-workplace-training.jpg"
 feature:
-permalink: /benefits-of-using-video-for-workplace-training
+permalink: /benefits-of-using-video-for-workplace-training/
 date: 2015-08-20T10:08:50-04:00
 ---
 

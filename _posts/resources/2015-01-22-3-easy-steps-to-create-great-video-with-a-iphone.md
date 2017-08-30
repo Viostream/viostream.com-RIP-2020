@@ -8,7 +8,7 @@ tags: []
 image:
 thumbnail: "/assets/img/resources/VideoInsigts_Vocorp-filming-video-with-a-smartphone.jpg"
 feature:
-permalink: /3-easy-steps-to-create-great-video-with-a-iphone
+permalink: /3-easy-steps-to-create-great-video-with-a-iphone/
 date: 2015-01-22T22:53:50-04:00
 ---
 

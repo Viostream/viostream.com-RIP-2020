@@ -8,7 +8,7 @@ tags: []
 image:
 thumbnail: "/assets/img/resources/3-ways-to-enhance-employee-engagement.jpg"
 feature:
-permalink: /3-ways-to-enhance-internal-comms-with-video
+permalink: /3-ways-to-enhance-internal-comms-with-video/
 date: 2015-08-28T23:06:50-04:00
 ---
 

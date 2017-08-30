@@ -8,7 +8,7 @@ tags: []
 image:
 thumbnail: "/assets/img/resources/insights-generating-leads-with-video.jpg"
 feature:
-permalink: /generating-leads-with-video
+permalink: /generating-leads-with-video/
 date: 2017-03-08T09:22:50-04:00
 ---
 

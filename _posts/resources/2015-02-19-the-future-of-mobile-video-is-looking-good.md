@@ -8,7 +8,7 @@ tags: []
 image:
 thumbnail: "/assets/img/resources/cisco-vi-tile.jpg"
 feature:
-permalink: /the-future-of-mobile-video-is-looking-good
+permalink: /the-future-of-mobile-video-is-looking-good/
 date: 2015-02-19T15:33:50-04:00
 ---
 

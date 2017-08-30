@@ -8,7 +8,7 @@ tags: []
 image:
 thumbnail: "/assets/img/resources/Bupa.jpg"
 feature:
-permalink: /how-bupa-uses-video-for-internal-communications
+permalink: /how-bupa-uses-video-for-internal-communications/
 date: 2017-03-14T08:13:10-04:00
 ---
 

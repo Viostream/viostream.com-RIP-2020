@@ -8,7 +8,7 @@ tags: []
 image:
 thumbnail: "/assets/img/resources/VideoInsigts_NSWFireRescue-Video.jpg"
 feature:
-permalink: /innovation-showcase-andrew-parsons-fire-rescue-nsw
+permalink: /innovation-showcase-andrew-parsons-fire-rescue-nsw/
 date: 2015-03-18T17:20:50-04:00
 ---
 

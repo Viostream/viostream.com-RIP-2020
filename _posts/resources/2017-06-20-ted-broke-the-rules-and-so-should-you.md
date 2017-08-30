@@ -8,7 +8,7 @@ tags: []
 image:
 thumbnail: "/assets/img/resources/TED-Ideas-worth-spreading.jpg"
 feature:
-permalink: /ted-broke-the-rules-and-so-should-you
+permalink: /ted-broke-the-rules-and-so-should-you/
 date: 2017-06-20T15:39:55-04:00
 modified: 2017-06-21T14:19:19-04:00
 ---

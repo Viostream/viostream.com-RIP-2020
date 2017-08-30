@@ -8,7 +8,7 @@ tags: []
 image:
 thumbnail: "/assets/img/resources/VideoInsigts_how-can-interactive-online-video-change-your-viewer-reaction.jpg"
 feature:
-permalink: /how-can-interactive-online-video-change-your-viewers-reactions
+permalink: /how-can-interactive-online-video-change-your-viewers-reactions/
 date: 2015-10-28T02:07:50-04:00
 ---
 
