@@ -6,53 +6,19 @@ search_omit: true
 pagination: 
   enabled: true
   category: guides
-permalink: resources/guides 
+permalink: /guides 
 ---
 
 <div class="banner text-center">
     <div class="container-fluid">
     	<div class="container hero-text">
-	       <h1 class="main-title t-white">Resources</h1>
+	       <h1 class="main-title t-white">Guides</h1>
 	       <p class="hero-subtitle-small t-white">Fast-forward your online video knowledge with our curated collection of blog posts, best practice guides and videos. </p>
        </div>
     </div>
 </div>
 <div class="container blog">
-		<ul class="row p-tb-50 row-eq-height">
-		{% for post in paginator.posts %} 
-		  <li class="col-md-4 p-b-50">
-		  	<article>
-		  		<div class="img-responsive m-b-20 post-image">
-		  				<a href="{{ post.url }}"><img src="{{ post.thumbnail }}" alt="{{ post.title }}" /></a>
-		  			</div>
-		  		<h4><a href="{{ post.url }}" class="nostyle-link">{{ post.title  | strip_html | truncate:45 }}</a></h4>
-		  		{% if post.excerpt %} 
-		  			<p class="excerpt">{{ post.excerpt | remove: '\[ ... \]' | remove: '\( ... \)' | markdownify | strip_html | strip_newlines | escape_once | truncate:120}}</p>
-		  	    {% endif %}
-		  	    <a class="btn btn-primary btn-sm" href="{{ post.url }}">Read more</a>
-		  	</article>
-		 </li>
-		{% endfor %}
-		</ul>
-		
-		<div class="row">
-			<div class="col">
-				<!-- Pagination links -->
-				<div class="pagination d-block text-center m-b-50">
-				  {% if paginator.previous_page %}
-				    <a href="{{ paginator.previous_page_path }}" class="previous"><i class="fa fa-chevron-left"></i></a>
-				  {% else %}
-				    <span class="previous"><i class="fa fa-chevron-left"></i></span>
-				  {% endif %}
-				  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-				  {% if paginator.next_page %}
-				    <a href="{{ paginator.next_page_path }}" class="next"><i class="fa fa-chevron-right"></i></a>
-				  {% else %}
-				    <span class="next "><i class="fa fa-chevron-right"></i></span>
-				  {% endif %}
-				</div>
-			</div>
-		</div>
+	{% include resource-post.html %}
 </div>
 
 

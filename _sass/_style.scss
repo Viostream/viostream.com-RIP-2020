@@ -43,7 +43,6 @@ table {
 	border-spacing: 0;
 }
 
-
 .welcome.as{
 	border: 1px solid #f1f1f1;
 	padding: 50px;
@@ -147,6 +146,10 @@ strong{
 
 .uppercase{
 	text-transform: uppercase !important;
+}
+
+.t-center{
+	text-align: center;
 }	
 
 .m-tb-50{
@@ -196,6 +199,11 @@ strong{
 	padding-bottom: 50px;
 }
 
+.p-tb-100{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
 .p-sm-t-50{
 	padding-top: 50px;
 }
@@ -210,6 +218,14 @@ strong{
 
 .p-b-0{
 	padding-bottom: 0;
+}
+
+.p-b-100{
+	padding-bottom: 100px;
+}
+
+.p-t-50{
+	padding-top: 50px;
 }
 
 .p-t-100{
@@ -564,6 +580,38 @@ a.nostyle-link:link, a.nostyle-link:visited{
 	background: $primary-off-color;
 }
 
+.download-link{
+	padding: 180px 50px 50px;
+	background: url('../img/download-guide.jpg') no-repeat 50% 10% $white !important;
+}
+
+.resources-links{
+	width: 100%;
+	padding: 2% 5% 0 5%;
+	text-align: center;
+}
+
+.resources-links li{
+	display: inline-block;
+	margin: 5px;
+}
+
+.resources-links li a{
+	color: $dark-text-color	;
+    font-size: 20px;
+    padding: 3px 9px;
+    background: transparent;
+    display: inline;
+}
+
+.resources-links li a:hover{
+	border-bottom: 1px solid $dark-text-color;
+}
+
+.no-hover{
+    pointer-events: none;
+}
+
 a.play-btn img{
 	@include transition(0.5s);
 	max-width: 100%;
@@ -600,6 +648,10 @@ a.play-btn:after {
 	background: transparent url('../img/play-btn.png') no-repeat center center;
 }
 
+.pagination{
+	margin: 0 auto 50px;
+	display: block;
+}
 
 /* @group Homepage banner */
 .home-banner{
@@ -906,7 +958,19 @@ a.play-btn:after {
 
 /* @end */
 
+.img-gallery{
+	margin: auto;
+	text-align: center;
+}
+
 /* @group Carousel */
+.carousel-item i{
+	font-style: italic;
+}
+
+.carousel-item h3{
+	line-height: 0.1em;
+}
 
 ol.carousel-indicators li{
    position:relative;-webkit-box-flex:1;-webkit-flex:1 0 auto;-ms-flex:1 0 auto;flex:1 0 auto;max-width:55px !important;height:55px;margin-right:3px;margin-left:3px;text-indent:-999px;cursor:pointer;background-color:rgba(255,255,255,.5);
@@ -3279,7 +3343,6 @@ xcustom form elements
 }
 
 .pricing .pricing-item {
-	font-family: "Nunito", sans-serif;
 	cursor: default;
 	background: #fff;
 	box-shadow: 0 0 10px rgba(46, 59, 125, 0.23);

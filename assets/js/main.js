@@ -72,7 +72,7 @@ jQuery(document).ready(function($){
 		  }
 	}
 	
-	$('.iframe-video').magnificPopup({
+	$('.iframe-video-home').magnificPopup({
 		type:'iframe',
 		callbacks: {
 		  open: function() {
@@ -82,6 +82,10 @@ jQuery(document).ready(function($){
 		  	videoStatus();
 		  }
 		}
+	});
+	
+	$('.iframe-video').magnificPopup({
+		type:'iframe'
 	});
 	
 	$('.img-gallery').magnificPopup({
