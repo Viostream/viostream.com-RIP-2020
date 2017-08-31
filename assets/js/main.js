@@ -5,7 +5,6 @@ jQuery(document).ready(function($){
 	
    $(".animated").on('appear',function() {
     var elem = $(this);
-    console.log("appear");
 	        var animation = elem.data('animation');
 	        if ( !elem.hasClass('visible') ) {
 	        	var animationDelay = elem.data('animation-delay');
@@ -30,7 +29,6 @@ jQuery(document).ready(function($){
            vodLivePrice = 	$(this).data('vodlive');
            vodLivePriceMonthly = $(this).data('vodlive');
            vodLivePriceMonthly *= $(this).data('price');
-           console.log(vodLivePrice);
        });
        $(".item-price-vod").html(vodPrice.toFixed(2));
        $(".item-price-vod-monthly").html(vodPriceMonthly.toFixed(0));
@@ -355,7 +353,6 @@ jQuery(document).ready(function($){
 		$('.download-pdf').css({
 			'height': (imgHeight)+'px'
 		});
-		console.log(imgHeight);
 	}
 	    
 
