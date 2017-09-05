@@ -347,7 +347,6 @@ jQuery(document).ready(function($){
 		});
 	}
 	
-	
 	function anchorHeight() {
 		var imgHeight = $('.download-pdf img').height();
 		$('.download-pdf').css({
