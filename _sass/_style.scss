@@ -630,10 +630,6 @@ a.nostyle-link:link, a.nostyle-link:visited{
 	color: $primary-color;
 }
 
-.no-hover{
-    pointer-events: none;
-}
-
 a.play-btn img{
 	@include transition(0.5s);
 	max-width: 100%;
@@ -1145,6 +1141,7 @@ Primary style
 
 .cd-tabs-navigation {
   width: 100%;
+  height: 90px;
 }
 .cd-tabs-navigation:after {
   content: "";
@@ -1248,7 +1245,7 @@ Primary style
 	}
 	.cd-tabs-navigation li {
 	  float: left !important;
-	  width: auto !important;
+//	  width: auto !important;
 	}
 }
 @media only screen and (min-width: 768px) {
@@ -1256,6 +1253,9 @@ Primary style
     /* move the nav to the left on medium sized devices */
     width: 80px;
     float: left;
+  }
+  .cd-tabs-navigation li{
+  	width: auto !important;
   }
   .cd-tabs-navigation a {
     height: 80px;
@@ -1294,7 +1294,6 @@ Primary style
 	.tour-hide-btn{
 		margin-bottom: 20px !important;
 	}
-	
 	.video-container {
 		position: relative;
 		padding-bottom: 56.25%;
@@ -3918,6 +3917,18 @@ Main components
 #pricing-table .pricing-bottom-row{
 	min-height: 90px;
 }
+@media only screen and (max-width:480px){
+	.form-round .input input{
+		margin-left: 10px!important;
+	}
+	.form-round .form-columns-3{
+		display:inline-block;
+		float: none;
+		margin: auto !important;
+		width:65% !important;
+		text-align: center !important;
+	}
+}
 @media only screen and (max-width:768px){
 	#pricing-table h2, #pricing-table ul > li {
 	  line-height: 0px;
@@ -3931,7 +3942,17 @@ Main components
 	.compare-title{
 		font-size: 18px !important;
 	}
-
+	.home-hero a.btn{
+		margin: 10px 0;
+	}
+	.home-hero .main-title{
+		margin: 100px auto 0;
+	}
+}
+@media only screen and (min-width:1280px){
+	.no-hover{
+	    pointer-events: none;
+	}
 }
 @media only screen and (min-width: 870px) {
   #pricing-table {
