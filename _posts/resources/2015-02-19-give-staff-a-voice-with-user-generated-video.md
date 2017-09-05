@@ -8,7 +8,7 @@ tags: []
 image:
 thumbnail: "/assets/img/resources/UCG-blog-image.jpg"
 feature:
-permalink: /give-staff-a-voice-with-user-generated-video
+permalink: /give-staff-a-voice-with-user-generated-video/
 date: 2015-02-19T15:22:50-04:00
 ---
 

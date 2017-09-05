@@ -5,7 +5,6 @@ jQuery(document).ready(function($){
 	
    $(".animated").on('appear',function() {
     var elem = $(this);
-    console.log("appear");
 	        var animation = elem.data('animation');
 	        if ( !elem.hasClass('visible') ) {
 	        	var animationDelay = elem.data('animation-delay');
@@ -30,7 +29,6 @@ jQuery(document).ready(function($){
            vodLivePrice = 	$(this).data('vodlive');
            vodLivePriceMonthly = $(this).data('vodlive');
            vodLivePriceMonthly *= $(this).data('price');
-           console.log(vodLivePrice);
        });
        $(".item-price-vod").html(vodPrice.toFixed(2));
        $(".item-price-vod-monthly").html(vodPriceMonthly.toFixed(0));
@@ -45,17 +43,10 @@ jQuery(document).ready(function($){
 	  
 	  //opens .a of selected question
 	$(this).next().slideToggle(500)
-	    //selects all other answers and slides up any open answer
 	    .siblings('li.ans').slideUp();
 	$(this).siblings('li').removeClass('active');
 	$(this).toggleClass('active');    
 	  
-//	  //Grab img from clicked question
-//	var img = $(this).children('img');
-//	  //Remove Rotate class from all images except the active
-//	  $('img').not(img).removeClass('rotate');
-//	  //toggle rotate class
-//	  img.toggleClass('rotate');
 	
 	});//End on click
 	
@@ -72,7 +63,7 @@ jQuery(document).ready(function($){
 		  }
 	}
 	
-	$('.iframe-video').magnificPopup({
+	$('.iframe-video-home').magnificPopup({
 		type:'iframe',
 		callbacks: {
 		  open: function() {
@@ -82,6 +73,10 @@ jQuery(document).ready(function($){
 		  	videoStatus();
 		  }
 		}
+	});
+	
+	$('.iframe-video').magnificPopup({
+		type:'iframe'
 	});
 	
 	$('.img-gallery').magnificPopup({
@@ -336,8 +331,9 @@ jQuery(document).ready(function($){
 jQuery(document).ready(function($){
 	// Change padding depending on the screen width and height
 	updateHHPadding();
+	anchorHeight();
 	$(window).resize(updateHHPadding);
-	
+	$(window).resize(anchorHeight);
 	function updateHHPadding() {
 		var hhHeight = $('.home-hero').height();
 		var clHeight = $('.client-logos').height();
@@ -351,7 +347,12 @@ jQuery(document).ready(function($){
 		});
 	}
 	
-	
+	function anchorHeight() {
+		var imgHeight = $('.download-pdf img').height();
+		$('.download-pdf').css({
+			'height': (imgHeight)+'px'
+		});
+	}
 	    
 
 	function triggerFilter($bool) {

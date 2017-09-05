@@ -8,7 +8,7 @@ tags: []
 image:
 thumbnail: "/assets/img/resources/VideoInsigts_how-micro-moments-in-time-effect-your-video-conten.jpg"
 feature:
-permalink: /how-micro-moments-affect-reactions-to-online-videoo
+permalink: /how-micro-moments-affect-reactions-to-online-video/
 date: 2015-11-19T14:03:50-04:00
 ---
 <input id="br-article-id" name="br-article-id" type="hidden" value="6025120" />

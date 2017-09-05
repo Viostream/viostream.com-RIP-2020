@@ -8,7 +8,7 @@ tags: []
 image:
 thumbnail: "/assets/img/resources/VideoInsigts_VideoToYourEmail.jpg"
 feature:
-permalink: /want-engagement-add-video-to-your-email
+permalink: /want-engagement-add-video-to-your-email/
 date: 2015-06-29T13:33:50-04:00
 ---
 

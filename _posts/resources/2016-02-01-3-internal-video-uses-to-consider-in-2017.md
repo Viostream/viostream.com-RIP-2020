@@ -8,7 +8,7 @@ tags: []
 image:
 thumbnail: "/assets/img/resources/How-will-your-business-improve-employee-engagement-levels.jpg"
 feature:
-permalink: /3-internal-video-uses-to-consider-in-2017
+permalink: /3-internal-video-uses-to-consider-in-2017/
 date: 2016-02-01T22:03:50-04:00
 ---
 <input id="br-article-id" name="br-article-id" type="hidden" value="6030055" />

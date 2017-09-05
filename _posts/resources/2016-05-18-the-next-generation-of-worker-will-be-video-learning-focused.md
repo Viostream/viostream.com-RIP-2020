@@ -8,7 +8,7 @@ tags: []
 image:
 thumbnail: "/assets/img/resources/videosinsights-the-next-generation-worker-will-be-video-learning-focused.jpg"
 feature:
-permalink: /the-next-generation-of-worker-will-be-video-learning-focused
+permalink: /the-next-generation-of-worker-will-be-video-learning-focused/
 date: 2016-05-18T08:03:50-04:00
 ---
 <span id="pk-id"></span>How do you connect with the newest generation of workers? Millennials and their neighbours, Generation Z, are both now present, active players in the workforce; and they both have a very different set of communicative requirements from their predecessors Generation X and, of course, baby boomers.

@@ -8,7 +8,7 @@ tags: []
 image:
 thumbnail: "/assets/img/resources/VideoInsigts_VideoMostEffectiveCommunicationMedium.jpg"
 feature:
-permalink: /why-video-is-now-the-most-effective-communication-medium
+permalink: /why-video-is-now-the-most-effective-communication-medium/
 date: 2015-08-27T15:18:50-04:00
 ---
 

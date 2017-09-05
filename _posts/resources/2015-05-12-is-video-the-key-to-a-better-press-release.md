@@ -8,7 +8,7 @@ tags: []
 image:
 thumbnail: "/assets/img/resources/VideoInsigts_PressRelease.jpg"
 feature:
-permalink: /is-video-the-key-to-a-better-press-release
+permalink: /is-video-the-key-to-a-better-press-release/
 date: 2015-05-12T14:34:50-04:00
 ---
 

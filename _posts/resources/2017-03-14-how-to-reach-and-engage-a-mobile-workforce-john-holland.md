@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ,  uses video for internal communications
+title: How to reach and engage a mobile workforce John Holland
 modified:
 categories: resources, videos, customer-stories
 excerpt: When most of your workforce are involved in over 100 projects across every state and territory, delivering effective internal communication solutions is a balancing act between business requirements and technical delivery.
@@ -8,7 +8,7 @@ tags: []
 image:
 thumbnail: "/assets/img/resources/John-Holland.jpg"
 feature:
-permalink: /how-to-reach-and-engage-a-mobile-workforce-john-holland
+permalink: /how-to-reach-and-engage-a-mobile-workforce-john-holland/
 date: 2017-03-14T08:13:07-04:00
 ---
 

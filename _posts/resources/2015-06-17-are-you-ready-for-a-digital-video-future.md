@@ -8,7 +8,7 @@ tags: []
 image:
 thumbnail: "/assets/img/resources/VideoInsigts-DigitalVideoFuture.jpg"
 feature:
-permalink: /are-you-ready-for-a-digital-video-future
+permalink: /are-you-ready-for-a-digital-video-future/
 date: 2015-06-17T15:54:50-04:00
 ---
 

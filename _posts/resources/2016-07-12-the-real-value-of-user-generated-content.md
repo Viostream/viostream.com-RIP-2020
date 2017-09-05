@@ -8,7 +8,7 @@ tags: []
 image:
 thumbnail: "/assets/img/resources/VideoInsights-the-real-value-of-user-generated-content.jpg"
 feature:
-permalink: /the-real-value-of-user-generated-content
+permalink: /the-real-value-of-user-generated-content/
 date: 2016-07-12T09:48:50-04:00
 ---
 

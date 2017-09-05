@@ -8,7 +8,7 @@ tags: []
 image:
 thumbnail: "/assets/img/resources/TEDxSydney-2017.jpg"
 feature:
-permalink: /what-innovative-ceos-need-to-learn-from-tedxsydney
+permalink: /what-innovative-ceos-need-to-learn-from-tedxsydney/
 date: 2017-06-22T08:08:50-04:00
 ---
 

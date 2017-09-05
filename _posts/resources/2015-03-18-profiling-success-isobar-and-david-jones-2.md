@@ -8,7 +8,7 @@ tags: []
 image:
 thumbnail: "/assets/img/resources/VideoInsights_IsobarDavidJones-Video.jpg"
 feature:
-permalink: /profiling-success-isobar-and-david-jones-2
+permalink: /profiling-success-isobar-and-david-jones-2/
 date: 2015-03-18T13:34:50-04:00
 ---
 
