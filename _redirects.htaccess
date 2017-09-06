@@ -1,7 +1,6 @@
 Redirect /test-to /platform
 Redirect /products /platform
 
-Redirect /contact-us/general-enquiry/ /contact-us/
 Redirect /general-enquiry/ /contact-us/
 Redirect /contact-us/get-pricing-or-a-demo/ /request-a-demo/
 Redirect /contact-us/webcast-estimate-tool/ /contact-us/
