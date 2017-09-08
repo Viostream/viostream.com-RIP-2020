@@ -30,6 +30,9 @@ sass:
 plugins:
   - jekyll-feed
   - jekyll-paginate-v2
+
+
+include: ["_pages"]
  
 # Pagination Settings
 pagination:
