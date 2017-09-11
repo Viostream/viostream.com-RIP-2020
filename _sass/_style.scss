@@ -2112,8 +2112,10 @@ Main components
 
 @media only screen and (min-width: 1170px) {
   .cd-primary-nav {
-    position: static;
     padding: 0 80px 0 0;
+    margin: 0;
+    top: 30px;
+    right: 40px;
     margin: 0;
     height: auto;
     width: auto;
