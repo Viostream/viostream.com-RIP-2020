@@ -31,6 +31,7 @@ plugins:
   - jekyll-feed
   - jekyll-paginate-v2
 
+google_analytics: UA-38403894-1
 
 include: ["_pages"]
  
