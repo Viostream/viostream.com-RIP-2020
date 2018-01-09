@@ -1714,12 +1714,46 @@ Main components
 .cd-header-buttons li {
   display: inline-block;
 }
+.cd-search-buttons {
+  position: absolute;
+  display: inline-block;
+  top: 0px;
+  right: 3%;
 
-.search-btn{
+}
+.cd-search-buttons li {
+  display: inline-block;
+}
+
+.search-btn-mobile {
 	color: $white;
 	line-height: 40px;
 	font-size: 20px;
 	padding-top: 0px;
+}
+
+@media only screen and (min-width: 1170px) {
+  .search-btn-mobile {
+    display: none !important;
+  }
+  .search-btn {
+    display: block !important;
+  }
+}
+.search-btn {
+	color: $white;
+	line-height: 70px;
+	font-size: 20px;
+  padding-top: 0px;
+  
+}
+@media only screen and (max-width: 1169px) {
+  .search-btn {
+    display: none !important;
+  }
+  .search-btn-mobile {
+    display: block !important;
+  }
 }
 .search-content{
 	
@@ -1760,6 +1794,7 @@ Main components
 	}
 }
 
+.container-fluids {position:relative;margin-left:auto;margin-right:auto;padding-right:15px;padding-left:15px}
 
 
 /*.cd-search-trigger::before, .cd-search-trigger::after {
@@ -2112,10 +2147,10 @@ Main components
 
 @media only screen and (min-width: 1170px) {
   .cd-primary-nav {
-    padding: 0 80px 0 0;
+    padding: 0 35px 0 0;
     margin: 0;
     top: 30px;
-    right: 40px;
+    right: 30px;
     margin: 0;
     height: auto;
     width: auto;
