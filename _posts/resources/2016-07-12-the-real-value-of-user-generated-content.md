@@ -13,7 +13,7 @@ date: 2016-07-12T09:48:50-04:00
 ---
 
 <p class="p1"><span class="s1">The rise of social media has led to an interesting trend - people are able to <a href="http://viocorp.com/events/"><span class="s2">cover events as they happen</span></a> and share them with the world using just their smartphones. It's certainly a significant shift for how people access news - platforms like Facebook, Twitter and Snapchat are rapidly becoming noteworthy alternatives to traditional news outlets.</span></p>
-<p class="p1"><span class="s1">The key here is <a href="http://viocorp.com/viostream/user-generated/"><span class="s2">user generated content</span></a>: People can create video content or take pictures and share them with a much larger audience. So what are the benefits, and how can businesses take advantage of this development?</span></p>
+<p class="p1"><span class="s1">The key here is user generated content: People can create video content or take pictures and share them with a much larger audience. So what are the benefits, and how can businesses take advantage of this development?</span></p>
 <p class="p1"><span class="s1"><b>The benefits of user generated content</b></span></p>
 <p class="p1"><span class="s1">Enabling staff to create their own video content and then share it with the business can be an excellent investment. Once the appropriate systems are in place, companies will see a number of benefits.</span></p>
 
