@@ -8,7 +8,7 @@ tags: []
 image:
 thumbnail: "/assets/img/resources/6-key-interactive-features-of-successful-video-marketing.jpg"
 feature:
-permalink: /what-makes-a-good-marketing-video/
+permalink: /what-makes-a-good-marketing-video1/
 date: 2016-07-05T09:48:50-04:00
 ---
 

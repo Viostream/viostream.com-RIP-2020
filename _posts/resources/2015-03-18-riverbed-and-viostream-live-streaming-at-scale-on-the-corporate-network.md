@@ -8,7 +8,7 @@ tags: []
 image:
 thumbnail: "/assets/img/resources/VideoInsigts_Riverbed-Video.jpg"
 feature:
-permalink: /riverbed-and-viostream-live-streaming-at-scale-on-the-corporate-network/
+permalink: /riverbed-and-viostream-live-streaming-at-scale-on-the-corporate-network1/
 date: 2015-03-18T16:40:50-04:00
 ---
 

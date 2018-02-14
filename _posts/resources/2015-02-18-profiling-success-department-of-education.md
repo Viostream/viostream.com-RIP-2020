@@ -8,7 +8,7 @@ tags: []
 image:
 thumbnail: "/assets/img/resources/VideoInsigts_DEEWR-Video.jpg"
 feature:
-permalink: /profiling-success-department-of-education/
+permalink: /profiling-success-department-of-education1/
 date: 2015-02-18T13:33:50-04:00
 ---
 

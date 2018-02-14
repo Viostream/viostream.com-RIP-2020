@@ -8,7 +8,7 @@ tags: []
 image:
 thumbnail: "/assets/img/resources/VideoInsigts-CallToAction.jpg"
 feature:
-permalink: /take-the-next-step-with-clickable-calls-to-action/
+permalink: /take-the-next-step-with-clickable-calls-to-action1/
 date: 2015-03-30T13:47:50-04:00
 ---
 

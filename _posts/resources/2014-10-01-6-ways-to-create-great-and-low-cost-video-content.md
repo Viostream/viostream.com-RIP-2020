@@ -8,7 +8,7 @@ tags: []
 image:
 thumbnail: "/assets/img/resources/6-Ways-to-Create-Great-Video-Content.jpg"
 feature:
-permalink: /6-ways-to-create-great-and-low-cost-video-content/
+permalink: /6-ways-to-create-great-and-low-cost-video-content1/
 date: 2014-10-01T08:08:50-04:00
 ---
 

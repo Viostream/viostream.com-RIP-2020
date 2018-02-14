@@ -8,7 +8,7 @@ tags: []
 image:
 thumbnail: "/assets/img/resources/VideoInsigts-SecureVideoCloudData.jpg"
 feature:
-permalink: /insight-into-data-sovereignty-and-video/
+permalink: /insight-into-data-sovereignty-and-video1/
 date: 2015-03-30T13:20:50-04:00
 ---
 

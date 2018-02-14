@@ -8,7 +8,7 @@ tags: []
 image:
 thumbnail: "/assets/img/resources/could-video-content-improve-your-company-culture.jpg"
 feature:
-permalink: /could-video-be-used-to-improve-your-company-culture/
+permalink: /could-video-be-used-to-improve-your-company-culture1/
 date: 2016-06-11T09:48:50-04:00
 ---
 
