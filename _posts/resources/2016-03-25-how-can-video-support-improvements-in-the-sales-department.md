@@ -8,7 +8,7 @@ tags: []
 image:
 thumbnail: "/assets/img/resources/how-can-video-support-improvements-in-the-sales-department.jpg"
 feature:
-permalink: /how-can-video-support-improvements-in-the-sales-department/
+permalink: /how-can-video-support-improvements-in-the-sales-department1/
 date: 2016-03-25T08:03:50-04:00
 ---
 <input id="br-article-id" name="br-article-id" type="hidden" value="6033803" />

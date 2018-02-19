@@ -8,7 +8,7 @@ tags: []
 image:
 thumbnail: "/assets/img/resources/video-insights-fishbowl.jpg"
 feature:
-permalink: /using-video-to-ease-company-transitions/
+permalink: /using-video-to-ease-company-transitions1/
 date: 2015-08-28T16:06:50-04:00
 ---
 

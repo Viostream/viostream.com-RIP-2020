@@ -8,7 +8,7 @@ tags: []
 image:
 thumbnail: "/assets/img/resources/live-VI-tile.jpg"
 feature:
-permalink: /to-do-live-or-not-to-do-live/
+permalink: /to-do-live-or-not-to-do-live1/
 date: 2015-02-19T15:25:50-04:00
 ---
 

@@ -8,7 +8,7 @@ tags: []
 image:
 thumbnail: "/assets/img/resources/TedxSydney2016.jpg"
 feature:
-permalink: /what-your-internal-presentations-can-borrow-from-ted-talks/
+permalink: /what-your-internal-presentations-can-borrow-from-ted-talks1/
 date: 2017-06-05T14:21:55-04:00
 ---
 

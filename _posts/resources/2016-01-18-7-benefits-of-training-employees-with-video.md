@@ -8,7 +8,7 @@ tags: []
 image:
 thumbnail: "/assets/img/resources/VideoInsigts_How-To-Do-Employee-Online-Training-Using-Video.jpg"
 feature:
-permalink: /7-benefits-of-training-employees-with-video/
+permalink: /7-benefits-of-training-employees-with-video1/
 date: 2016-01-18T14:03:50-04:00
 ---
 <strong>A great article from our partners at Optus on the benefits of using online video to train new and existing employees. <a href="https://blog.optus.com.au/how-to/employee-online-training-video/" target="_blank">Click here</a> for more articles from the Optus blog</strong>

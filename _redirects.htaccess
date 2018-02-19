@@ -209,6 +209,59 @@ Redirect /platform/network-delivery/ /platform/
 Redirect /platform/live-streaming/ /live-streaming/
 Redirect /sig/ /assets/img/signature.png
 Redirect /sig /assets/img/signature.png
+Redirect 301 /2014-10-01-6-ways-to-create-great-and-low-cost-video-content/ https://blog.viostream.com/6-ways-to-create-great-and-low-cost-video-content/
+Redirect 301 /world-first-tedx-sydneys-live-stream/ https://blog.viostream.com/world-first-tedx-sydneys-live-stream/
+Redirect /bentleys-documentary-filmed-entirely-on-an-iphone/ https://blog.viostream.com/bentleys-documentary-filmed-entirely-on-an-iphone/
+Redirect /3-easy-steps-to-create-great-video-with-a-iphone/ https://blog.viostream.com/3-easy-steps-to-create-great-video-with-a-iphone/
+Redirect /6-ways-smart-marketers-are-using-video-to-create-a-competitive-edge/ https://blog.viostream.com/6-ways-smart-marketers-are-using-video-to-create-a-competitive-edge/
+Redirect /investor-relations-video-streaming/ https://blog.viostream.com/investor-relations-video-streaming/
+Redirect /profiling-success-department-of-education/ https://blog.viostream.com/profiling-success-department-of-education/
+Redirect /give-staff-a-voice-with-user-generated-video/ https://blog.viostream.com/give-staff-a-voice-with-user-generated-video/
+Redirect /the-future-of-mobile-video-is-looking-good/ https://blog.viostream.com/the-future-of-mobile-video-is-looking-good/
+Redirect /to-do-live-or-not-to-do-live/ https://blog.viostream.com/to-do-live-or-not-to-do-live/
+Redirect /innovation-showcase-andrew-parsons-fire-rescue-nsw/ https://blog.viostream.com/innovation-showcase-andrew-parsons-fire-rescue-nsw/
+Redirect /innovation-showcase-matt-gerber-magnus/ https://blog.viostream.com/innovation-showcase-matt-gerber-magnus/
+Redirect /innovation-showcase-steve-white-king-wood-mallesons/ https://blog.viostream.com/innovation-showcase-steve-white-king-wood-mallesons/
+Redirect /profiling-success-isobar-and-david-jones-2/ https://blog.viostream.com/profiling-success-isobar-and-david-jones-2/
+Redirect /riverbed-and-viostream-live-streaming-at-scale-on-the-corporate-network/ https://blog.viostream.com/riverbed-and-viostream-live-streaming-at-scale-on-the-corporate-network/
+Redirect /insight-into-data-sovereignty-and-video/ https://blog.viostream.com/insight-into-data-sovereignty-and-video/
+Redirect /take-the-next-step-with-clickable-calls-to-action/ https://blog.viostream.com/take-the-next-step-with-clickable-calls-to-action/
+Redirect /is-video-the-key-to-a-better-press-release/ https://blog.viostream.com/is-video-the-key-to-a-better-press-release/
+Redirect /are-you-ready-for-a-digital-video-future/ https://blog.viostream.com/are-you-ready-for-a-digital-video-future/
+Redirect /video-metrics-you-didnt-know-to-look-out-for/ https://blog.viostream.com/video-metrics-you-didnt-know-to-look-out-for/
+Redirect /want-engagement-add-video-to-your-email/ https://blog.viostream.com/want-engagement-add-video-to-your-email/
+Redirect /your-live-stream-checklist/ https://blog.viostream.com/your-live-stream-checklist/
+Redirect /benefits-of-using-video-for-workplace-training/ https://blog.viostream.com/benefits-of-using-video-for-workplace-training/
+Redirect /event-budgets-are-on-the-rise-is-it-time-for-you-to-live-stream/ https://blog.viostream.com/event-budgets-are-on-the-rise-is-it-time-for-you-to-live-stream/
+Redirect /video-and-social-media-working-together/ https://blog.viostream.com/video-and-social-media-working-together/
+Redirect /why-video-is-now-the-most-effective-communication-medium/ https://blog.viostream.com/why-video-is-now-the-most-effective-communication-medium/
+Redirect /3-ways-to-enhance-internal-comms-with-video/ https://blog.viostream.com/3-ways-to-enhance-internal-comms-with-video/
+Redirect /using-video-to-ease-company-transitions/ https://blog.viostream.com/using-video-to-ease-company-transitions/
+Redirect /how-to-create-an-effective-online-video-tutorial/ https://blog.viostream.com/how-to-create-an-effective-online-video-tutorial/
+Redirect /how-can-interactive-online-video-change-your-viewers-reactions/ https://blog.viostream.com/how-can-interactive-online-video-change-your-viewers-reactions/
+Redirect /what-are-the-steps-to-video-marketing-success/ https://blog.viostream.com/what-are-the-steps-to-video-marketing-success/
+Redirect /how-micro-moments-affect-reactions-to-online-video/ https://blog.viostream.com/how-micro-moments-affect-reactions-to-online-video/
+Redirect /7-benefits-of-training-employees-with-video/ https://blog.viostream.com/7-benefits-of-training-employees-with-video/
+Redirect /3-internal-video-uses-to-consider-in-2017/ https://blog.viostream.com/3-internal-video-uses-to-consider-in-2017/
+Redirect /how-can-video-support-improvements-in-the-sales-department/ https://blog.viostream.com/how-can-video-support-improvements-in-the-sales-department/
+Redirect /how-video-can-support-the-onboarding-process/ https://blog.viostream.com/how-video-can-support-the-onboarding-process/
+Redirect /the-next-generation-of-worker-will-be-video-learning-focused/ https://blog.viostream.com/the-next-generation-of-worker-will-be-video-learning-focused/
+Redirect /could-video-be-used-to-improve-your-company-culture/ https://blog.viostream.com/could-video-be-used-to-improve-your-company-culture/
+Redirect /what-makes-a-good-marketing-video/ https://blog.viostream.com/what-makes-a-good-marketing-video/
+Redirect /the-real-value-of-user-generated-content/ https://blog.viostream.com/the-real-value-of-user-generated-content/
+Redirect /generating-leads-with-video/ https://blog.viostream.com/generating-leads-with-video/
+Redirect /government-video-2015/ https://blog.viostream.com/government-video-2015/
+Redirect /how-bupa-uses-video-for-internal-communications/ https://blog.viostream.com/how-bupa-uses-video-for-internal-communications/
+Redirect /how-to-reach-and-engage-a-mobile-workforce-john-holland/ https://blog.viostream.com/how-to-reach-and-engage-a-mobile-workforce-john-holland/
+Redirect /what-is-the-difference-between-web-conferencing-and-video-streaming/ https://blog.viostream.com/what-is-the-difference-between-web-conferencing-and-video-streaming/
+Redirect /government-video-communications-2017/ https://blog.viostream.com/government-video-communications-2017/
+Redirect /what-are-the-alternatives-to-hosting-video-on-youtube/ https://blog.viostream.com/what-are-the-alternatives-to-hosting-video-on-youtube/
+Redirect /what-your-internal-presentations-can-borrow-from-ted-talks/ https://blog.viostream.com/what-your-internal-presentations-can-borrow-from-ted-talks/
+Redirect /ted-broke-the-rules-and-so-should-you/ https://blog.viostream.com/ted-broke-the-rules-and-so-should-you/
+Redirect 301 /2017-06-22-what-innovative-ceos-need-to-learn-from-tedxsydney/ https://blog.viostream.com/what-innovative-ceos-need-to-learn-from-tedxsydney/
+Redirect /the-5-things-hr-leaders-can-learn-from-tedxsydney/ https://blog.viostream.com/the-5-things-hr-leaders-can-learn-from-tedxsydney/
+
+
 
 
 

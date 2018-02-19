@@ -8,7 +8,7 @@ tags: []
 image:
 thumbnail: "/assets/img/resources/VideoInsigts_KingWoodMallesons-Video.jpg"
 feature:
-permalink: /innovation-showcase-steve-white-king-wood-mallesons/
+permalink: /innovation-showcase-steve-white-king-wood-mallesons1/
 date: 2015-03-18T16:34:50-04:00
 ---
 

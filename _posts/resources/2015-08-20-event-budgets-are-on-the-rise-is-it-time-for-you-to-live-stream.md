@@ -8,7 +8,7 @@ tags: []
 image:
 thumbnail: "/assets/img/resources/VideoInsigts_Event-budgets-are-on-the-rise-Is-it-time-to-consider-live-streaming.jpg"
 feature:
-permalink: /event-budgets-are-on-the-rise-is-it-time-for-you-to-live-stream/
+permalink: /event-budgets-are-on-the-rise-is-it-time-for-you-to-live-stream1/
 date: 2015-08-20T10:12:50-04:00
 ---
 

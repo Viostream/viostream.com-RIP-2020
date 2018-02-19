@@ -8,7 +8,7 @@ tags: []
 image:
 thumbnail: "/assets/img/resources/VideoInsigts_YourLiveStreamChecklist.jpg"
 feature:
-permalink: /your-live-stream-checklist/
+permalink: /your-live-stream-checklist1/
 date: 2015-07-09T11:29:50-04:00
 ---
 

@@ -8,7 +8,7 @@ tags: []
 image:
 thumbnail: "/assets/img/resources/VideoInsigts_How-to-create-an-effective-online-video-tutorial-.jpg"
 feature:
-permalink: /how-to-create-an-effective-online-video-tutorial/
+permalink: /how-to-create-an-effective-online-video-tutorial1/
 date: 2015-09-11T12:07:50-04:00
 ---
 

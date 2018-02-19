@@ -8,7 +8,7 @@ tags: []
 image:
 thumbnail: "/assets/img/resources/John-Holland.jpg"
 feature:
-permalink: /how-to-reach-and-engage-a-mobile-workforce-john-holland/
+permalink: /how-to-reach-and-engage-a-mobile-workforce-john-holland1/
 date: 2017-03-14T08:13:07-04:00
 ---
 

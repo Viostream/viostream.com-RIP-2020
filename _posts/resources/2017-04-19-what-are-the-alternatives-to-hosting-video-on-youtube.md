@@ -8,7 +8,7 @@ tags: []
 image:
 thumbnail: "/assets/img/resources/VideoInsigts-DigitalVideoFuture.jpg"
 feature:
-permalink: /what-are-the-alternatives-to-hosting-video-on-youtube/
+permalink: /what-are-the-alternatives-to-hosting-video-on-youtube1/
 date: 2017-04-19T12:01:55-04:00
 ---
 

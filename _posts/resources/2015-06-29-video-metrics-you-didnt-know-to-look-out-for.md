@@ -8,7 +8,7 @@ tags: []
 image:
 thumbnail: "/assets/img/resources/VideoInsigts_VideoMetrics.jpg"
 feature:
-permalink: /video-metrics-you-didnt-know-to-look-out-for/
+permalink: /video-metrics-you-didnt-know-to-look-out-for1/
 date: 2015-06-29T12:07:50-04:00
 ---
 

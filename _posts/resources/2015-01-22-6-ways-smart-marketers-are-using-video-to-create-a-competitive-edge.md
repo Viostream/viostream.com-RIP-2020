@@ -8,7 +8,7 @@ tags: []
 image:
 thumbnail: "/assets/img/resources/6-ways-v3.jpg"
 feature:
-permalink: /6-ways-smart-marketers-are-using-video-to-create-a-competitive-edge/
+permalink: /6-ways-smart-marketers-are-using-video-to-create-a-competitive-edge1/
 date: 2015-01-22T22:50:50-04:00
 ---
 

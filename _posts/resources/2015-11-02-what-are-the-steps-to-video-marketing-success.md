@@ -8,7 +8,7 @@ tags: []
 image:
 thumbnail: "/assets/img/resources/VideoInsigts_What-are-the-steps-to-video-marketing-success.jpg"
 feature:
-permalink: /what-are-the-steps-to-video-marketing-success/
+permalink: /what-are-the-steps-to-video-marketing-success1/
 date: 2015-11-02T21:03:50-04:00
 ---
 <input id="br-article-id" name="br-article-id" type="hidden" value="6024000" />

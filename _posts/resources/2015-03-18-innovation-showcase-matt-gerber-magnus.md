@@ -8,7 +8,7 @@ tags: []
 image:
 thumbnail: "/assets/img/resources/VideoInsights_MAGNUS-Video.jpg"
 feature:
-permalink: /innovation-showcase-matt-gerber-magnus/
+permalink: /innovation-showcase-matt-gerber-magnus1/
 date: 2015-03-18T17:40:50-04:00
 ---
 

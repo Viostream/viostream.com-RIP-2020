@@ -8,7 +8,7 @@ tags: []
 image:
 thumbnail: "/assets/img/resources/TEDx1-600x350.jpg"
 feature:
-permalink: /world-first-tedx-sydneys-live-stream/
+permalink: /world-first-tedx-sydneys-live-stream1/
 date: 2014-10-09T08:02:50-04:00
 ---
 
