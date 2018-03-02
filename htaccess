@@ -1,0 +1,9 @@
+---
+layout: none
+permalink: .htaccess
+---
+
+RewriteEngine on
+RewriteCond %{SERVER_PORT} ^443$
+RewriteCond %{HTTP_HOST} ^www\\.viostream\\.com$ [NC]
+RewriteRule .? https://viostream.com%{REQUEST_URI} [R=301,L]

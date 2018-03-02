@@ -34,6 +34,7 @@ plugins:
 google_analytics: UA-38403894-1
 
 include: ["_pages"]
+
  
 # Pagination Settings
 pagination:
