@@ -214,6 +214,7 @@ Redirect /platform/network-delivery/ /platform/
 Redirect /platform/live-streaming/ /live-streaming/
 Redirect /sig/ /assets/img/signature.png
 Redirect /sig /assets/img/signature.png
+
 Redirect 301 /2014-10-01-6-ways-to-create-great-and-low-cost-video-content/ https://blog.viostream.com/6-ways-to-create-great-and-low-cost-video-content/
 Redirect 301 /world-first-tedx-sydneys-live-stream/ https://blog.viostream.com/world-first-tedx-sydneys-live-stream/
 Redirect /bentleys-documentary-filmed-entirely-on-an-iphone/ https://blog.viostream.com/bentleys-documentary-filmed-entirely-on-an-iphone/
@@ -265,7 +266,7 @@ Redirect /what-your-internal-presentations-can-borrow-from-ted-talks/ https://bl
 Redirect /ted-broke-the-rules-and-so-should-you/ https://blog.viostream.com/ted-broke-the-rules-and-so-should-you/
 Redirect 301 /2017-06-22-what-innovative-ceos-need-to-learn-from-tedxsydney/ https://blog.viostream.com/what-innovative-ceos-need-to-learn-from-tedxsydney/
 Redirect /the-5-things-hr-leaders-can-learn-from-tedxsydney/ https://blog.viostream.com/the-5-things-hr-leaders-can-learn-from-tedxsydney/
-
+Redirect /blog https://blog.viostream.com/
 
 
 
