@@ -269,6 +269,7 @@ Redirect /the-5-things-hr-leaders-can-learn-from-tedxsydney/ https://blog.viostr
 Redirect /blog/ https://blog.viostream.com/
 Redirect 301 /about/ /who-we-are/
 Redirect 301 /resources/ https://content.viostream.com/resources
+Redirect 301 /livemadeeasy/ https://publish.viostream.com/app/s-nd8dqx5
 
 
 
