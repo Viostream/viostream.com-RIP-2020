@@ -271,8 +271,7 @@ Redirect 301 /about/ /who-we-are/
 Redirect 301 /resources/ https://content.viostream.com/resources
 Redirect 301 /livemadeeasy/ https://content.viostream.com/register-for-webinar-one
 Redirect 301 /tedxsydney/ https://content.viostream.com/TEDxSydney
-
-
+Redirect 301 /govdigitalcomms/ https://content.viostream.com/govdigitalcomms
 
 
 
