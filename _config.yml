@@ -30,12 +30,13 @@ sass:
 plugins:
   - jekyll-feed
   - jekyll-paginate-v2
+  - jekyll-redirect-from
 
 google_analytics: UA-38403894-1
 
 include: ["_pages"]
 
- 
+
 # Pagination Settings
 pagination:
   enabled: true
