@@ -4102,9 +4102,9 @@ Main components
   background-color: rgba(0, 0, 0, 0);
   border-color: $white;
   width: 100%;
-  border-radius: 5px;
   color: $white;
   text-transform: uppercase;
   padding: 19px 25px;
   font-size: 1.2rem;
+  @include border-radius(5px);
 }
