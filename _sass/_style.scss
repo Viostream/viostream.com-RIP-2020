@@ -19,6 +19,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section, main {
@@ -741,9 +742,7 @@ a.play-btn:after {
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
-.platform-banner a.iframe-video{
-	
-}	
+
 .browser-frame{
 	background: transparent url('../img/browser-bar.png') no-repeat left top;
 	z-index: 100;
@@ -823,6 +822,7 @@ a.play-btn:after {
 .hbspt-form label{
 	display: none !important;
 }
+
 .hbspt-form{
 	width: 100%;
 	text-align: center;
@@ -831,7 +831,6 @@ a.play-btn:after {
 
 .form-round .form-columns-3{
 	display:inline-block;
-	float: left;
 	width:80% !important;
 }
 
@@ -1426,7 +1425,7 @@ Primary style
   }
 }
 
-#tour-content1,#tour-content2,,#tour-content3{
+#tour-content1,#tour-content2,#tour-content3{
 display:none;
 }
 
@@ -4029,4 +4028,85 @@ Main components
   #pricing-table {
     margin: 0em auto;
   }
+}
+
+// hs-embed-container contains the new inline hubspot forms implemented in July
+// 2019
+
+.hs-embed-container {
+  margin: auto;
+  max-width: 600px;
+}
+
+.hs-embed-container .hbspt-form fieldset {
+  margin: 0 0 1em;
+  // margin: auto;
+  // margin-bottom: 1em;
+  max-width: unset !important;
+}
+
+.hs-embed-container .hs-form-field {
+  text-align: left;
+}
+
+.hs-embed-container .hs-form-field label {
+  color: $white;
+  display: inline !important;
+}
+
+.hs-embed-container .hs-form-field label .hs-form-required {
+  color: $light-grey;
+  font-size: 1.2rem;
+}
+
+.hs-embed-container .hs-form-field .input, .hs-submit .actions {
+  margin-right: 8px !important;
+  height: unset;
+}
+
+.hs-embed-container .hs-form-field .input input {
+  padding: 15px 10px;
+  height: 50px;
+  width: 100% !important;
+  font-size: 16px;
+}
+
+.hs-embed-container .hs-form-field .input select {
+  padding: 15px;
+  height: 50px;
+  font-size: 16px;
+  background-color: $white;
+  width: 100% !important;
+  -webkit-appearance: menulist;
+  -moz-appearance: menulist;
+  appearance: menulist;
+}
+
+.hs-embed-container .hs-form-field .input textarea {
+  width: 100% !important;
+  font-size: 16px;
+  flex-direction: column;
+  overflow-wrap: break-word;
+  padding: 15px 30px;
+  resize: both;
+  white-space: pre-wrap;
+}
+
+.hs-embed-container .hs-submit {
+  padding-top: 50px;
+  max-width: 300px;
+  margin: auto;
+}
+
+.hs-embed-container .hs-button.primary.large {
+  background-color: $white;
+  border-color: $primary-color;
+  width: 100%;
+  color: $primary-color;
+  text-transform: uppercase;
+  padding: 0.6rem 4rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+  @include border-radius(5px);
 }
