@@ -4099,12 +4099,14 @@ Main components
 }
 
 .hs-embed-container .hs-button.primary.large {
-  background-color: rgba(0, 0, 0, 0);
-  border-color: $white;
+  background-color: $white;
+  border-color: $primary-color;
   width: 100%;
-  color: $white;
+  color: $primary-color;
   text-transform: uppercase;
-  padding: 19px 25px;
+  padding: 0.6rem 4rem;
   font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
   @include border-radius(5px);
 }

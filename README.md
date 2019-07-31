@@ -10,5 +10,3 @@ to optimize the display of mobile devices.
 1. Checkout the repo
 2. Run `docker-compose up`
 3. Browse to localhost:4000
-
-(live code reload coming soon...)
