@@ -1,0 +1,9 @@
+.pricing-table {
+    margin: auto;
+    display: block;
+    width: 90%
+}
+
+.pricing-table .row .pricing-cell {
+    border: 1px $light-grey solid;
+}
