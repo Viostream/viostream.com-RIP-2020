@@ -11,11 +11,14 @@ to optimize the display of mobile devices.
 2. Run `docker-compose up`
 3. Browse to localhost:4000
 
-## Deploy (until we get the new TeamCity agent deploying)
+## Deploy (until we move this to github actions / Octopus)
 
 ```
 docker run --rm \
   -e JEKYLL_ENV=production \
   -v $(pwd):/srv/jekyll \
   jekyll/builder jekyll build
+
+cd _site
+aws-vault exec viocorp-superuser -- aws s3 sync ./ s3://viostream-com-production/
 ```
